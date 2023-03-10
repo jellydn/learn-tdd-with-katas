@@ -1,0 +1,26 @@
+{
+  "name": "tdd-demo",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "rome": "rome",
+    "rome:check": "rome check --apply-suggested {apps,packages}/**/*.{ts,tsx,md}",
+    "rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}"
+  },
+  "devDependencies": {
+    "rome": "^11.0.0",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.27.1"
+}
