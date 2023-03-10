@@ -1,3 +1,5 @@
 {
-	"extends": "tsconfig/nodejs.json"
+	"extends": "tsconfig/nodejs.json",
+	"include": ["services/**/*.ts", "addons/**/*.ts"],
+	"files": ["moleculer.config.ts"]
 }

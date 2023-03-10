@@ -1,6 +1,7 @@
 import { BrokerOptions } from "moleculer";
 
-import { logger } from "./logger";
+import { logger } from "common";
+import { initDbConnection } from "db";
 
 /**
  * Moleculer ServiceBroker configuration file
@@ -208,6 +209,7 @@ const config: BrokerOptions = {
 	// Called after broker started.
 	async started(broker) {
 		logger.warn("Broker started!", broker);
+		await initDbConnection();
 	},
 
 	// Called after broker stopped.

@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "next": "^13.2.4",
@@ -16,10 +16,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
-    "tsconfig": "workspace:*",
     "@types/node": "^18.15.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
+    "tsconfig": "workspace:*",
     "typescript": "^4.9.5"
   }
 }

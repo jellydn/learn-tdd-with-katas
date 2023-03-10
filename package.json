@@ -10,17 +10,18 @@
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "test": "turbo run test",
     "rome": "rome",
     "rome:check": "rome check --apply-suggested {apps,packages}/**/*.{ts,tsx,md}",
-    "rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}"
+    "rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
+    "test": "turbo run test"
   },
   "devDependencies": {
+    "eslint": "^8.35.0",
     "rome": "^11.0.0",
     "turbo": "latest"
   },
+  "packageManager": "pnpm@7.27.1",
   "engines": {
     "node": ">=14.0.0"
-  },
-  "packageManager": "pnpm@7.27.1"
+  }
 }

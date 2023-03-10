@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Common Library",
+	"extends": "./base.json",
+	"compilerOptions": {
+		"lib": ["ES2015"],
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"target": "es6"
+	}
+}
