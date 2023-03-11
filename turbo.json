@@ -13,6 +13,7 @@
 			"outputs": []
 		},
 		"test": {
+			"dependsOn": ["^lib"],
 			"outputs": ["coverage/**"],
 			"inputs": ["src/**/*.tsx", "src/**/*.ts", "test/**/*.ts"],
 			"outputMode": "full"
