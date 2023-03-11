@@ -209,7 +209,11 @@ const config: BrokerOptions = {
 	// Called after broker started.
 	async started(broker) {
 		logger.warn("Broker started!", broker);
-		await initDbConnection();
+		try {
+			await initDbConnection();
+		} catch (error) {
+			logger.error("Error while connecting to database", error);
+		}
 	},
 
 	// Called after broker stopped.
