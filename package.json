@@ -20,7 +20,7 @@
     "rome": "^11.0.0",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.29.2",
+  "packageManager": "pnpm@8.5.1",
   "engines": {
     "node": ">=14.0.0"
   }
