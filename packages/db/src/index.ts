@@ -19,21 +19,21 @@ export async function getAllUsers() {
 }
 
 // get user by id
-export async function getUserById(id: number) {
+export async function getUserByUserId(userId: number) {
 	const userRepo = AppDataSource.getRepository(User);
 	return userRepo.findOneOrFail({
 		where: {
-			id,
+			id: userId,
 		},
 	});
 }
 
 // update user
-export async function updateUser(id: number, user: Partial<User>) {
+export async function updateUser(userId: number, user: Partial<User>) {
 	const userRepo = AppDataSource.getRepository(User);
 	const userToUpdate = await userRepo.findOneOrFail({
 		where: {
-			id,
+			id: userId,
 		},
 	});
 	userRepo.merge(userToUpdate, user);
@@ -41,11 +41,11 @@ export async function updateUser(id: number, user: Partial<User>) {
 }
 
 //soft delete user
-export async function deleteUser(id: number) {
+export async function deleteUser(userId: number) {
 	const userRepo = AppDataSource.getRepository(User);
 	const userToDelete = await userRepo.findOneOrFail({
 		where: {
-			id,
+			id: userId,
 		},
 	});
 	return userRepo.softDelete({

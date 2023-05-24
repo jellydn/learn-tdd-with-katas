@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Test 'user' service > Test 'user.all' action > should return with all users 1`] = `undefined`;
+
+exports[`Test 'user' service > Test 'user.profile' action > should return with profile 1`] = `undefined`;

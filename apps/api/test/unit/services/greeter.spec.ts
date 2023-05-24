@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import { Errors, ServiceBroker } from "moleculer";
+import { beforeAll, afterAll, describe, expect, it } from "vitest";
 
 import TestGreeterService from "../../../services/greeter.service";
 
