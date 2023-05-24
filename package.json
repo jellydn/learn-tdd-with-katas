@@ -16,9 +16,9 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@total-typescript/shoehorn": "^0.1.0",
-    "eslint": "^8.41.0",
-    "rome": "^12.1.2",
+    "@total-typescript/shoehorn": "0.1.0",
+    "eslint": "8.41.0",
+    "rome": "12.1.2",
     "turbo": "latest"
   },
   "packageManager": "pnpm@8.5.1",
