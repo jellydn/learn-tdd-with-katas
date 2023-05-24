@@ -21,7 +21,7 @@
     "rome": "^12.1.2",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@7.29.2",
+  "packageManager": "pnpm@7.32.5",
   "engines": {
     "node": ">=14.0.0"
   }
