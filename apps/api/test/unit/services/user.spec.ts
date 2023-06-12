@@ -1,4 +1,4 @@
-import db from "db";
+import * as db from "db";
 import { fromPartial } from "@total-typescript/shoehorn";
 import { Errors, ServiceBroker } from "moleculer";
 import { afterAll, beforeAll, describe, expect, it, vi } from "vitest";

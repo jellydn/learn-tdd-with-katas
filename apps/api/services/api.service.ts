@@ -1,15 +1,8 @@
 import helmet from "helmet";
-import type { IncomingMessage } from "http";
-import type { Context, ServiceSchema } from "moleculer";
+import type { ServiceSchema } from "moleculer";
 import ApiGateway from "moleculer-web";
-import { resolve } from "path";
 import process from "process";
 
-/**
- * @typedef {import('moleculer').Context} Context Moleculer's Context
- * @typedef {import('http').IncomingMessage} IncomingRequest Incoming HTTP Request
- * @typedef {import('http').ServerResponse} ServerResponse HTTP Server Response
- */
 const apiService: ServiceSchema = {
 	name: "api",
 	mixins: [ApiGateway],
@@ -125,76 +118,7 @@ const apiService: ServiceSchema = {
 		},
 	},
 
-	methods: {
-		/**
-		 * Authenticate the request. It check the `Authorization` token value in the request header.
-		 * Check the token value & resolve the user by the token.
-		 * The resolved user will be available in `ctx.meta.user`
-		 *
-		 * PLEASE NOTE, IT'S JUST AN EXAMPLE IMPLEMENTATION. DO NOT USE IN PRODUCTION!
-		 *
-		 * @param {Context} ctx
-		 * @param {Object} route
-		 * @param {IncomingRequest} req
-		 * @returns {Promise}
-		 */
-		async authenticate(
-			ctx: Context<any, { user?: Record<string, any> }>,
-			route: Record<string, any>,
-			request: IncomingMessage & {
-				$action: any;
-			},
-		) {
-			// Read the token from header
-			const auth = request.headers.authorization;
-
-			if (auth?.startsWith("Bearer")) {
-				const token = auth.slice(7);
-
-				// Check the token. Tip: call a service which verify the token. E.g. `accounts.resolveToken`
-				if (token === "123456") {
-					// Returns the resolved user. It will be set to the `ctx.meta.user`
-					return { id: 1, name: "John Doe" };
-				}
-
-				// Invalid token
-				throw new ApiGateway.Errors.UnAuthorizedError(
-					ApiGateway.Errors.ERR_INVALID_TOKEN,
-					[],
-				);
-			} else {
-				// No token. Throw an error or do nothing if anonymous access is allowed.
-				// throw new E.UnAuthorizedError(E.ERR_NO_TOKEN);
-				return null;
-			}
-		},
-
-		/**
-		 * Authorize the request. Check that the authenticated user has right to access the resource.
-		 *
-		 * PLEASE NOTE, IT'S JUST AN EXAMPLE IMPLEMENTATION. DO NOT USE IN PRODUCTION!
-		 *
-		 * @param {Context} ctx
-		 * @param {Object} route
-		 * @param {IncomingRequest} req
-		 * @returns {Promise}
-		 */
-		async authorize(
-			ctx: Context<any, { user?: Record<string, any> }>,
-			route: Record<string, any>,
-			request: IncomingMessage & {
-				$action: any;
-			},
-		) {
-			// Get the authenticated user.
-			const { user } = ctx.meta;
-
-			// It check the `auth` property in action schema.
-			if (request.$action.auth === "required" && !user) {
-				throw new ApiGateway.Errors.UnAuthorizedError("NO_RIGHTS", []);
-			}
-		},
-	},
+	methods: {},
 };
 
 export default apiService;

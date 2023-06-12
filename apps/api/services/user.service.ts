@@ -47,7 +47,7 @@ const userService: ServiceSchema = {
 			async handler(
 				ctx: Context<{
 					userId: string;
-				}>,
+				}>
 			) {
 				return getUserByUserId(Number(ctx.params.userId));
 			},
