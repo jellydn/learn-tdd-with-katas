@@ -39,7 +39,7 @@
     "@types/jest": "29.5.2",
     "@types/node": "20.3.0",
     "@vitest/ui": "0.32.0",
-    "c8": "7.14.0",
+    "c8": "8.0.0",
     "hygen": "6.2.11",
     "moleculer-repl": "0.7.3",
     "tsconfig": "workspace:*",
