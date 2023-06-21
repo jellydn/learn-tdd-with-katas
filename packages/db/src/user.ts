@@ -40,7 +40,7 @@ export async function updateUser(userId: number, user: Partial<User>) {
 	return userRepo.save(userToUpdate);
 }
 
-//soft delete user
+// soft delete user
 export async function deleteUser(userId: number) {
 	const userRepo = AppDataSource.getRepository(User);
 	const userToDelete = await userRepo.findOneOrFail({
