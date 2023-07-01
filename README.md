@@ -52,7 +52,7 @@ There are several reasons why some people might dislike or criticize TDD (Test-D
 
 Kent Beck, one of the pioneers of TDD, has recently introduced an alternative approach called "Tidy First". In essence, "Tidy First" suggests that before adding a new feature or fixing a bug, you should first tidy up the relevant section of code. The idea is that by cleaning the code first, you will have a better understanding of it, which in turn will make the change easier to implement.
 
-"Tidy First" can be seen as a complement to TDD, not a replacement. While TDD is about driving the design of your code with tests, "Tidy First" is about maintaining the readability and maintainability of your codebase, which is essential for long-term project health. It's also in line with the principle of "leave the code better than you found it", which is a part of the broader practice of Refactoring.
+["Tidy First"](./Tidy-First.md) can be seen as a complement to TDD, not a replacement. While TDD is about driving the design of your code with tests, "Tidy First" is about maintaining the readability and maintainability of your codebase, which is essential for long-term project health. It's also in line with the principle of "leave the code better than you found it", which is a part of the broader practice of Refactoring.
 
 ## Prerequisites
 
