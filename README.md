@@ -52,11 +52,11 @@ There are several reasons why some people might dislike or criticize TDD (Test-D
 
 Kent Beck, one of the pioneers of TDD, has recently introduced an alternative approach called "Tidy First". In essence, "Tidy First" suggests that before adding a new feature or fixing a bug, you should first tidy up the relevant section of code. The idea is that by cleaning the code first, you will have a better understanding of it, which in turn will make the change easier to implement.
 
-["Tidy First"](./Tidy-First.md) can be seen as a complement to TDD, not a replacement. While TDD is about driving the design of your code with tests, "Tidy First" is about maintaining the readability and maintainability of your codebase, which is essential for long-term project health. It's also in line with the principle of "leave the code better than you found it", which is a part of the broader practice of Refactoring.
+["Tidy First"](./docs/Tidy-First.md) can be seen as a complement to TDD, not a replacement. While TDD is about driving the design of your code with tests, "Tidy First" is about maintaining the readability and maintainability of your codebase, which is essential for long-term project health. It's also in line with the principle of "leave the code better than you found it", which is a part of the broader practice of Refactoring.
 
 ## Prerequisites
 
-- node >=18.0.0
+-   node >=18.0.0
 
 ## Usage
 
@@ -68,16 +68,15 @@ pnpm run test
 
 1. "Test-Driven Development (TDD) - Beginner's Guide to JavaScript Testing" by Fireship
 
-   This video is a beginner's tutorial that introduces the fundamentals of JavaScript testing and Test-Driven Development. It provides valuable insight into why we test and the philosophy behind TDD. The tutorial also covers topics like functional testing, non-functional testing, setting up Jest, writing your first test, setup & teardown, and code coverage report.
+    This video is a beginner's tutorial that introduces the fundamentals of JavaScript testing and Test-Driven Development. It provides valuable insight into why we test and the philosophy behind TDD. The tutorial also covers topics like functional testing, non-functional testing, setting up Jest, writing your first test, setup & teardown, and code coverage report.
 
-   Watch the video here: [Test-Driven Development (TDD) - Beginner's Guide to JavaScript Testing](https://www.youtube.com/watch?v=Jv2uxzhPFl4&t=6s)
+    Watch the video here: [Test-Driven Development (TDD) - Beginner's Guide to JavaScript Testing](https://www.youtube.com/watch?v=Jv2uxzhPFl4&t=6s)
 
 2. "Software Testing in 100 Seconds" by Fireship
 
-   This video provides a quick and concise overview of software testing.
+    This video provides a quick and concise overview of software testing.
 
-   Watch the video here: [Software Testing in 100 Seconds](https://www.youtube.com/watch?v=u6QfIXgjwGQ)
-
+    Watch the video here: [Software Testing in 100 Seconds](https://www.youtube.com/watch?v=u6QfIXgjwGQ)
 
 ## Show your support
 
