@@ -1,30 +1,31 @@
 {
-	"name": "tdd-demo",
-	"version": "0.0.1",
-	"private": true,
-	"workspaces": [
-		"apps/*",
-		"packages/*"
-	],
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"lint": "turbo run lint",
-		"rome": "rome",
-		"rome:check": "rome check --apply-suggested {apps,packages}/**/*.{ts,tsx,md}",
-		"rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
-		"test": "turbo run test"
-	},
-	"devDependencies": {
-		"@total-typescript/shoehorn": "0.1.1",
-		"@turbo/gen": "^1.10.7",
-		"eslint": "8.44.0",
-		"pythagora": "0.0.72",
-		"rome": "12.1.3",
-		"turbo": "latest"
-	},
-	"packageManager": "pnpm@8.6.5",
-	"engines": {
-		"node": ">=14.0.0"
-	}
+  "name": "tdd-demo",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "generate": "turbo generate",
+    "rome": "rome",
+    "rome:check": "rome check --apply-suggested {apps,packages}/**/*.{ts,tsx,md}",
+    "rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@total-typescript/shoehorn": "0.1.1",
+    "@turbo/gen": "^1.10.7",
+    "eslint": "8.44.0",
+    "pythagora": "0.0.72",
+    "rome": "12.1.3",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.5",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
