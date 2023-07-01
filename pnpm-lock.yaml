@@ -12,7 +12,7 @@ importers:
         specifier: 0.1.1
         version: 0.1.1
       '@turbo/gen':
-        specifier: ^1.10.7
+        specifier: 1.10.7
         version: 1.10.7(@types/node@20.3.3)(typescript@5.1.6)
       eslint:
         specifier: 8.44.0
