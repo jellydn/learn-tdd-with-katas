@@ -12,7 +12,7 @@
     "lint": "turbo run lint",
     "generate": "turbo generate",
     "rome": "rome",
-    "rome:check": "rome check --apply-suggested {apps,packages}/**/*.{ts,tsx,md}",
+    "rome:check": "rome check --apply-unsafe {apps,packages}/**/*.{ts,tsx,md}",
     "rome:format": "rome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
     "test": "turbo run test"
   },
@@ -26,6 +26,6 @@
   },
   "packageManager": "pnpm@8.6.5",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   }
 }
