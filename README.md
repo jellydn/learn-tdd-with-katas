@@ -59,11 +59,31 @@ Kent Beck, one of the pioneers of TDD, has recently introduced an alternative ap
 ## Prerequisites
 
 -   node >=18.0.0
+-   pnpm
+
+## Installation
+
+Clone the project using the following command:
+
+```sh
+git clone https://github.com/jellydn/tdd-demo
+```
 
 ## Usage
 
+After cloning the project, install dependencies and run tests using these commands:
+
 ```sh
+pnpm install
 pnpm run test
+```
+
+## [TDD Kata](./docs/TDD-Kata.md)
+
+You can generate a new TDD Kata using this command:
+
+```sh
+pnpm generate
 ```
 
 ## Video References
