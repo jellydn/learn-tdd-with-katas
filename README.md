@@ -6,6 +6,8 @@
 
 tdd-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](https://pnpm.io/). The API is built with [Moleculer](https://moleculer.services/docs/0.14/), a fast, modern, and powerful microservices framework for Node.js. The data is managed through [TypeORM](https://typeorm.io/), a powerful ORM for TypeScript and JavaScript that supports PostgreSQL among other databases. The tests are run with [vitest](https://vitest.dev/), a fast and native ESM test runner.
 
+[![IT Man - Mastering Test-Driven Development: A Comprehensive Walkthrough For Developer [Vietnamese]](https://i.ytimg.com/vi/w0EgJ7SW48o/hqdefault.jpg)](https://www.youtube.com/watch?v=w0EgJ7SW48o)
+
 ## Intro about TDD
 
 ### WHAT is TDD?
