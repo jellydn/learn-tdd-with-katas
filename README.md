@@ -8,6 +8,36 @@ tdd-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](h
 
 [![IT Man - Mastering Test-Driven Development: A Comprehensive Walkthrough For Developer [Vietnamese]](https://i.ytimg.com/vi/w0EgJ7SW48o/hqdefault.jpg)](https://www.youtube.com/watch?v=w0EgJ7SW48o)
 
+## Prerequisites
+
+-   node >=18.0.0
+-   pnpm
+
+## Installation
+
+Clone the project using the following command:
+
+```sh
+git clone https://github.com/jellydn/tdd-demo
+```
+
+## Usage
+
+After cloning the project, install dependencies and run tests using these commands:
+
+```sh
+pnpm install
+pnpm run test
+```
+
+## [TDD Kata](./docs/TDD-Kata.md)
+
+You can generate a new TDD Kata using this command:
+
+```sh
+pnpm generate
+```
+
 ## Intro about TDD
 
 ### WHAT is TDD?
@@ -56,36 +86,6 @@ Kent Beck, one of the pioneers of TDD, has recently introduced an alternative ap
 
 ["Tidy First"](./docs/Tidy-First.md) can be seen as a complement to TDD, not a replacement. While TDD is about driving the design of your code with tests, "Tidy First" is about maintaining the readability and maintainability of your codebase, which is essential for long-term project health. It's also in line with the principle of "leave the code better than you found it", which is a part of the broader practice of Refactoring.
 
-## Prerequisites
-
--   node >=18.0.0
--   pnpm
-
-## Installation
-
-Clone the project using the following command:
-
-```sh
-git clone https://github.com/jellydn/tdd-demo
-```
-
-## Usage
-
-After cloning the project, install dependencies and run tests using these commands:
-
-```sh
-pnpm install
-pnpm run test
-```
-
-## [TDD Kata](./docs/TDD-Kata.md)
-
-You can generate a new TDD Kata using this command:
-
-```sh
-pnpm generate
-```
-
 ## Video References
 
 1. "Test-Driven Development (TDD) - Beginner's Guide to JavaScript Testing" by Fireship
@@ -99,6 +99,16 @@ pnpm generate
     This video provides a quick and concise overview of software testing.
 
     Watch the video here: [Software Testing in 100 Seconds](https://www.youtube.com/watch?v=u6QfIXgjwGQ)
+
+## Resources
+
+### AI Generated Unit Tests
+
+This project leverages AI to generate unit tests. For more information on how to use AI to generate unit tests, please refer to the auto-testgen-nodejs project https://github.com/jellydn/auto-testgen-nodejs
+
+### Moleculer-based Microservices
+
+This project is based on Moleculer microservices framework. To understand the structure and workflow of this project, it can be helpful to look at this Moleculer-based TypeScript template https://github.com/jellydn/moleculer-typescript-template.
 
 ## Author
 
