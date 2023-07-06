@@ -4,7 +4,9 @@
   <img src="https://img.shields.io/badge/node-%3E%3D14.0.0-blue.svg" />
 </p>
 
-tdd-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](https://pnpm.io/). The API is built with [Moleculer](https://moleculer.services/docs/0.14/), a fast, modern, and powerful microservices framework for Node.js. The data is managed through [TypeORM](https://typeorm.io/), a powerful ORM for TypeScript and JavaScript that supports PostgreSQL among other databases. The tests are run with [vitest](https://vitest.dev/), a fast and native ESM test runner.
+TDD-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](https://pnpm.io/). The API is built with [Moleculer](https://moleculer.services/docs/0.14/), a fast, modern, and powerful microservices framework for Node.js. The data is managed through [TypeORM](https://typeorm.io/), a powerful ORM for TypeScript and JavaScript that supports PostgreSQL among other databases. The tests are run with [vitest](https://vitest.dev/), a fast and native ESM test runner.
+
+This repository is a hands-on resource for learning and practicing Test-Driven Development (TDD) with a set of kata exercises such as the String Calculator, FizzBuzz, and Roman Numerals.
 
 [![IT Man - Mastering Test-Driven Development: A Comprehensive Walkthrough For Developer [Vietnamese]](https://i.ytimg.com/vi/w0EgJ7SW48o/hqdefault.jpg)](https://www.youtube.com/watch?v=w0EgJ7SW48o)
 
@@ -32,7 +34,13 @@ pnpm run test
 
 ## [TDD Kata](./docs/TDD-Kata.md)
 
-You can generate a new TDD Kata using this command:
+We provide three kata exercises: String Calculator, FizzBuzz, and Roman Numerals. You can generate a new TDD Kata for these exercises using this command:
+
+- **String Calculator**: This kata focuses on string operations and parsing, an essential skill for many data processing tasks.
+
+- **FizzBuzz**: This is a classic coding exercise that focuses on conditional logic and modularity.
+
+- **Roman Numerals**: This kata exercise focuses on algorithmic thinking by converting numbers to Roman numerals and vice versa.
 
 ```sh
 pnpm generate
