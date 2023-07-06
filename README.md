@@ -1,10 +1,10 @@
-<h1 align="center">Welcome to tdd-demo 👋</h1>
+<h1 align="center">Welcome to Learn TDD With Katas 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D14.0.0-blue.svg" />
 </p>
 
-TDD-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](https://pnpm.io/). The API is built with [Moleculer](https://moleculer.services/docs/0.14/), a fast, modern, and powerful microservices framework for Node.js. The data is managed through [TypeORM](https://typeorm.io/), a powerful ORM for TypeScript and JavaScript that supports PostgreSQL among other databases. The tests are run with [vitest](https://vitest.dev/), a fast and native ESM test runner.
+learn-tdd-with-katas is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](https://pnpm.io/). The API is built with [Moleculer](https://moleculer.services/docs/0.14/), a fast, modern, and powerful microservices framework for Node.js. The data is managed through [TypeORM](https://typeorm.io/), a powerful ORM for TypeScript and JavaScript that supports PostgreSQL among other databases. The tests are run with [vitest](https://vitest.dev/), a fast and native ESM test runner.
 
 This repository is a hands-on resource for learning and practicing Test-Driven Development (TDD) with a set of kata exercises such as the String Calculator, FizzBuzz, and Roman Numerals.
 
@@ -20,7 +20,7 @@ This repository is a hands-on resource for learning and practicing Test-Driven D
 Clone the project using the following command:
 
 ```sh
-git clone https://github.com/jellydn/tdd-demo
+git clone https://github.com/jellydn/learn-tdd-with-katas
 ```
 
 ## Usage
@@ -36,11 +36,11 @@ pnpm run test
 
 We provide three kata exercises: String Calculator, FizzBuzz, and Roman Numerals. You can generate a new TDD Kata for these exercises using this command:
 
-- **String Calculator**: This kata focuses on string operations and parsing, an essential skill for many data processing tasks.
+-   **String Calculator**: This kata focuses on string operations and parsing, an essential skill for many data processing tasks.
 
-- **FizzBuzz**: This is a classic coding exercise that focuses on conditional logic and modularity.
+-   **FizzBuzz**: This is a classic coding exercise that focuses on conditional logic and modularity.
 
-- **Roman Numerals**: This kata exercise focuses on algorithmic thinking by converting numbers to Roman numerals and vice versa.
+-   **Roman Numerals**: This kata exercise focuses on algorithmic thinking by converting numbers to Roman numerals and vice versa.
 
 ```sh
 pnpm generate

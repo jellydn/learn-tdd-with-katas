@@ -18,7 +18,7 @@ Learning TDD can be effectively supplemented with the use of coding katas. They 
 
 ```javascript
 it("should return 0 for an empty string", () => {
-  expect(add("")).toBe(0);
+    expect(add("")).toBe(0);
 });
 ```
 
@@ -28,8 +28,7 @@ it("should return 0 for an empty string", () => {
 
 ```javascript
 function add(numbers) {
-  if(numbers === "")
-    return 0;
+    if (numbers === "") return 0;
 }
 ```
 
@@ -55,6 +54,6 @@ pnpm run test
 
 ## Wrapping Up
 
-The practice of TDD can be a powerful method to improve the quality of your code and its maintainability. "Tidy First", an approach by Kent Beck, complements TDD by focusing on the cleanliness and organization of code. 
+The practice of TDD can be a powerful method to improve the quality of your code and its maintainability. "Tidy First", an approach by Kent Beck, complements TDD by focusing on the cleanliness and organization of code.
 
-We hope this tdd-demo project and the associated TDD Kata provides a helpful introduction to the practices of TDD and "Tidy First". If you found this project useful, please consider giving it a ⭐️. Happy coding!
+We hope this learn-tdd-with-katas project and the associated TDD Kata provides a helpful introduction to the practices of TDD and "Tidy First". If you found this project useful, please consider giving it a ⭐️. Happy coding!
