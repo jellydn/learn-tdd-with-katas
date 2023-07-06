@@ -10,7 +10,7 @@ tdd-demo is a monorepo set up using [Turbo](https://turborepo.org/) and [pnpm](h
 
 ## Prerequisites
 
--   node >=18.0.0
+-   node >=16.20.0
 -   pnpm
 
 ## Installation
