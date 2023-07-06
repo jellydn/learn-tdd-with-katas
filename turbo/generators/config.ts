@@ -1,6 +1,24 @@
 import { PlopTypes } from "@turbo/gen";
 
 export default function generator(plop: PlopTypes.NodePlopAPI): void {
+	const testFiles = [
+		{
+			type: "add",
+			path: "packages/{{package}}/index.ts",
+			templateFile: "templates/index.ts.hbs",
+		},
+		{
+			type: "add",
+			path: "packages/{{package}}/package.json",
+			templateFile: "templates/package.json.hbs",
+		},
+		{
+			type: "add",
+			path: "packages/{{package}}/vitest.config.ts",
+			templateFile: "templates/vite.config.ts.hbs",
+		},
+	];
+
 	plop.setGenerator("TDD Kata - String Calculator", {
 		description: "sum numbers from a string",
 		prompts: [
@@ -28,36 +46,17 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
 			},
 		],
 		actions: [
-			// Create README.md
 			{
 				type: "add",
 				path: "packages/{{package}}/README.md",
 				templateFile: "templates/string-calculator-README.md.hbs",
 			},
-			// Create index file
-			{
-				type: "add",
-				path: "packages/{{package}}/index.ts",
-				templateFile: "templates/index.ts.hbs",
-			},
-			// Create test file
 			{
 				type: "add",
 				path: "packages/{{package}}/index.test.ts",
 				templateFile: "templates/string-calculator.test.ts.hbs",
 			},
-			// create package.json
-			{
-				type: "add",
-				path: "packages/{{package}}/package.json",
-				templateFile: "templates/package.json.hbs",
-			},
-			// create vitest.config.ts
-			{
-				type: "add",
-				path: "packages/{{package}}/vitest.config.ts",
-				templateFile: "templates/vite.config.ts.hbs",
-			},
+			...testFiles,
 		],
 	});
 
@@ -88,36 +87,17 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
 			},
 		],
 		actions: [
-			// Create README.md
 			{
 				type: "add",
 				path: "packages/{{package}}/README.md",
 				templateFile: "templates/fizz-buzz-README.md.hbs",
 			},
-			// Create index file
-			{
-				type: "add",
-				path: "packages/{{package}}/index.ts",
-				templateFile: "templates/index.ts.hbs",
-			},
-			// Create test file
 			{
 				type: "add",
 				path: "packages/{{package}}/index.test.ts",
 				templateFile: "templates/fizz-buzz.test.ts.hbs",
 			},
-			// create package.json
-			{
-				type: "add",
-				path: "packages/{{package}}/package.json",
-				templateFile: "templates/package.json.hbs",
-			},
-			// create vitest.config.ts
-			{
-				type: "add",
-				path: "packages/{{package}}/vitest.config.ts",
-				templateFile: "templates/vite.config.ts.hbs",
-			},
+			...testFiles,
 		],
 	});
 
@@ -148,36 +128,17 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
 			},
 		],
 		actions: [
-			// Create README.md
 			{
 				type: "add",
 				path: "packages/{{package}}/README.md",
 				templateFile: "templates/roman-numerals-README.md.hbs",
 			},
-			// Create index file
-			{
-				type: "add",
-				path: "packages/{{package}}/index.ts",
-				templateFile: "templates/index.ts.hbs",
-			},
-			// Create test file
 			{
 				type: "add",
 				path: "packages/{{package}}/index.test.ts",
 				templateFile: "templates/roman-numerals.test.ts.hbs",
 			},
-			// create package.json
-			{
-				type: "add",
-				path: "packages/{{package}}/package.json",
-				templateFile: "templates/package.json.hbs",
-			},
-			// create vitest.config.ts
-			{
-				type: "add",
-				path: "packages/{{package}}/vitest.config.ts",
-				templateFile: "templates/vite.config.ts.hbs",
-			},
+			...testFiles,
 		],
 	});
 }
