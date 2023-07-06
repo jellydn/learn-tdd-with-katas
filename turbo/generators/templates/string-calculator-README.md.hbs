@@ -1,13 +1,49 @@
-## TDD Kata: String Calculator
+# TDD Kata: String Calculator
 
-Learning TDD can be effectively supplemented with the use of coding katas. They are small, repeatable problems that are meant to practice programming.
+Welcome to the String Calculator TDD Kata. This is a simple yet powerful exercise to learn and practice Test Driven Development (TDD) principles.
 
-### Problem Description
+## Problem Description
 
-1. The String Calculator function, `add()`, will take 0, 1, or 2 numbers in a string and will return their sum. For an empty string, it will return 0. For example: "" => 0, "1" => 1, "1,2" => 3.
+The String Calculator function, `add()`, has the following specifications:
 
-2. The `add()` function will handle an unknown amount of numbers.
+1. It will take 0, 1, or 2 numbers in a string and will return their sum. For an empty string, it will return 0. For example: "" => 0, "1" => 1, "1,2" => 3.
 
-3. The `add()` function will handle new lines between numbers. For example: "1\n2,3" => 6.
+2. It can handle an unknown amount of numbers.
 
-4. The `add()` function will support different delimiters. To change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers...]" For example: "//;\n1;2" => 3.
+3. It can handle new lines between numbers. For example: "1\n2,3" => 6.
+
+4. It supports different delimiters. To change a delimiter, the beginning of the string will contain a separate line that looks like this: "//[delimiter]\n[numbers...]" For example: "//;\n1;2" => 3.
+
+## Examples
+
+```javascript
+console.log(add("")); // Output: 0
+console.log(add("1")); // Output: 1
+console.log(add("1,2")); // Output: 3
+console.log(add("1\n2,3")); // Output: 6
+console.log(add("//;\n1;2")); // Output: 3
+```
+
+## Testing
+
+To execute the tests:
+
+```sh
+pnpm run test
+```
+
+## Methodology
+
+This kata follows TDD principles:
+
+1. Write a failing test for a feature.
+2. Write minimal code to make the test pass.
+3. Refactor the code, ensuring to keep all tests green.
+
+Remember to keep your tests as simple as possible and write just enough code to make them pass.
+
+## Resources
+
+- [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Learn TDD with a String Calculator](https://osherove.com/tdd-kata-1/)
+

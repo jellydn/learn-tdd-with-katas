@@ -1,32 +1,51 @@
-## TDD Kata: Roman Numerals
+# TDD Kata: Roman Numerals
 
-### Problem Description
+Welcome to the Roman Numerals TDD Kata. This is a powerful exercise to practice and understand Test Driven Development (TDD) principles.
 
-1. The Roman Numerals function, `convert()`, will take an integer and will return its Roman numeral representation. For example: 1 => "I", 2 => "II", 3 => "III".
+## Problem Description
 
-2. The `convert()` function will handle numbers up to 3999.
+The Roman Numerals function, `convert()`, operates as follows:
 
-3. The `convert()` function will handle subtractive notation. For example: 4 => "IV", 9 => "IX", 40 => "XL", 90 => "XC", 400 => "CD", 900 => "CM".
+1. It takes an integer and returns its Roman numeral representation. For example: 1 => "I", 2 => "II", 3 => "III".
 
-4. The `convert()` function will handle invalid input by returning an error message.
+2. It handles numbers up to 3999.
 
-### Example
+3. It handles subtractive notation. For example: 4 => "IV", 9 => "IX", 40 => "XL", 90 => "XC", 400 => "CD", 900 => "CM".
 
-The following code shows how to use the convert() function:
+4. It handles invalid input by returning an error message.
 
-```sh
->>> convert(1)
-'I'
->>> convert(5)
-'V'
->>> convert(10)
-'X'
->>> convert(4)
-'IV'
->>> convert(100)
-'C'
+## Examples
+
+```javascript
+console.log(convert(1)); // Output: 'I'
+console.log(convert(4)); // Output: 'IV'
+console.log(convert(9)); // Output: 'IX'
+console.log(convert(44)); // Output: 'XLIV'
+console.log(convert(100)); // Output: 'C'
 ```
 
-### Resources
+## Testing
 
-- Roman Numerals: https://en.wikipedia.org/wiki/Roman_numerals
+To execute the tests:
+
+```sh
+pnpm run test
+```
+
+## Methodology
+
+This kata follows TDD principles:
+
+1. Write a failing test for a feature.
+2. Write minimal code to make the test pass.
+3. Refactor the code, ensuring to keep all tests green.
+
+Remember to keep your tests as simple as possible and write just enough code to make them pass.
+
+## Resources
+
+- [Node.js](https://nodejs.org/)
+- [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Roman Numerals on Wikipedia](https://en.wikipedia.org/wiki/Roman_numerals)
+- [Learn TDD with Roman Numerals](http://codingdojo.org/kata/RomanNumerals/)
+

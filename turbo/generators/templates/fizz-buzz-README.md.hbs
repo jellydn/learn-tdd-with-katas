@@ -1,8 +1,47 @@
-## FizzBuzz Kata
+# TDD Kata: FizzBuzz
 
-### Problem Description
+Welcome to the FizzBuzz TDD Kata. This exercise will help you learn and practice Test Driven Development (TDD) principles with a simple problem.
 
-1. Print integers (numbers) 1 to N (e.g. N could be… 100).
-2. Print “Fizz” if an integer is divisible by 3.
-3. Print “Buzz” if an integer is divisible by 5.
-4. Print “FizzBuzz” if an integer is divisible by both 3 and 5.
+## Problem Description
+
+The `fizzBuzz()` function will follow these rules:
+
+1. It takes an integer N and prints integers 1 to N.
+
+2. It prints "Fizz" if an integer is divisible by 3.
+
+3. It prints "Buzz" if an integer is divisible by 5.
+
+4. It prints "FizzBuzz" if an integer is divisible by both 3 and 5.
+
+## Examples
+
+```javascript
+console.log(fizzBuzz(1)); // Output: '1'
+console.log(fizzBuzz(3)); // Output: 'Fizz'
+console.log(fizzBuzz(5)); // Output: 'Buzz'
+console.log(fizzBuzz(15)); // Output: 'FizzBuzz'
+```
+
+## Testing
+
+To execute the tests:
+
+```sh
+pnpm run test
+```
+
+## Methodology
+
+This kata follows TDD principles:
+
+1. Write a failing test for a feature.
+2. Write minimal code to make the test pass.
+3. Refactor the code, ensuring to keep all tests green.
+
+Remember to keep your tests as simple as possible and write just enough code to make them pass.
+
+## Resources
+
+- [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
+- [Learn TDD with FizzBuzz](https://codingdojo.org/kata/FizzBuzz/)
