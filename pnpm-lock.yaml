@@ -42,11 +42,11 @@ importers:
         specifier: 7.0.0
         version: 7.0.0
       moleculer:
-        specifier: 0.14.29
-        version: 0.14.29(nats@2.15.1)(pino@8.14.1)
+        specifier: 0.14.30
+        version: 0.14.30(nats@2.15.1)(pino@8.14.1)
       moleculer-web:
-        specifier: 0.10.5
-        version: 0.10.5(moleculer@0.14.29)
+        specifier: 0.10.6
+        version: 0.10.6(moleculer@0.14.30)
       nats:
         specifier: 2.15.1
         version: 2.15.1
@@ -4327,8 +4327,8 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /moleculer-web@0.10.5(moleculer@0.14.29):
-    resolution: {integrity: sha512-b4LFl67ESo8tmYtfuu91r8nRyLV158URAbf21dsNvf4hiVJW0u0BFwkkQF7Bn1Y+KRYCnAXNjGt4B+q5+cKnIw==}
+  /moleculer-web@0.10.6(moleculer@0.14.30):
+    resolution: {integrity: sha512-MGNIH6mXLU2Wj63bAgoVzdhMKXALp99F5UHuiBgS2ywakdWEUl/q7GlMblvscioCCkXuUWezId85J0yioYxedg==}
     engines: {node: '>= 10.x.x'}
     peerDependencies:
       moleculer: ^0.13.0 || ^0.14.0
@@ -4341,7 +4341,7 @@ packages:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.29(nats@2.15.1)(pino@8.14.1)
+      moleculer: 0.14.30(nats@2.15.1)(pino@8.14.1)
       path-to-regexp: 3.2.0
       qs: 6.11.2
       serve-static: 1.15.0
@@ -4349,8 +4349,8 @@ packages:
       - supports-color
     dev: false
 
-  /moleculer@0.14.29(nats@2.15.1)(pino@8.14.1):
-    resolution: {integrity: sha512-19SbGgZGL6tHpgQAiEg8ZTkPR3IagJ/ruZr3038fZchTUHZ0wMZSrh62Or3iUJBMEOFqZ5S5nHpKtV40jpoeew==}
+  /moleculer@0.14.30(nats@2.15.1)(pino@8.14.1):
+    resolution: {integrity: sha512-XxM2oYPofd5FhHTnu8+gzEcEMy92rHw2ey6f4bd+aMCWNFQpueg2eKURZPn5rSpif7mS2AwKMPGGgEqoRnT7+A==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
     peerDependencies:
