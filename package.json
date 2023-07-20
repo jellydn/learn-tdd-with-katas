@@ -20,7 +20,7 @@
     "@total-typescript/shoehorn": "0.1.1",
     "@turbo/gen": "1.10.9",
     "eslint": "8.45.0",
-    "pythagora": "0.0.78",
+    "pythagora": "0.0.79",
     "rome": "12.1.3",
     "turbo": "latest"
   },
