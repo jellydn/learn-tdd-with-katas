@@ -12,12 +12,12 @@
     "typeorm": "typeorm-ts-node-commonjs"
   },
   "dependencies": {
-    "pg": "8.11.1",
+    "pg": "8.11.2",
     "reflect-metadata": "0.1.13",
     "typeorm": "0.3.17"
   },
   "devDependencies": {
-    "@swc/core": "1.3.72",
+    "@swc/core": "1.3.73",
     "@types/node": "20.4.5",
     "ts-node": "10.9.1",
     "tsconfig": "workspace:*",
