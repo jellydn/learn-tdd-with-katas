@@ -30,7 +30,7 @@
     "db": "workspace:*",
     "dotenv": "16.3.1",
     "helmet": "7.0.0",
-    "moleculer": "0.14.30",
+    "moleculer": "0.14.31",
     "moleculer-web": "0.10.6",
     "nats": "2.15.1",
     "pino": "8.15.0"
