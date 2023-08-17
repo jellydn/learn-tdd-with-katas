@@ -43,13 +43,13 @@ importers:
         version: 7.0.0
       moleculer:
         specifier: 0.14.31
-        version: 0.14.31(nats@2.15.1)(pino@8.15.0)
+        version: 0.14.31(nats@2.16.0)(pino@8.15.0)
       moleculer-web:
         specifier: 0.10.6
         version: 0.10.6(moleculer@0.14.31)
       nats:
-        specifier: 2.15.1
-        version: 2.15.1
+        specifier: 2.16.0
+        version: 2.16.0
       pino:
         specifier: 8.15.0
         version: 8.15.0
@@ -144,14 +144,14 @@ importers:
   packages/db:
     dependencies:
       pg:
-        specifier: 8.11.2
-        version: 8.11.2
+        specifier: 8.11.3
+        version: 8.11.3
       reflect-metadata:
         specifier: 0.1.13
         version: 0.1.13
       typeorm:
         specifier: 0.3.17
-        version: 0.3.17(pg@8.11.2)(ts-node@10.9.1)
+        version: 0.3.17(pg@8.11.3)(ts-node@10.9.1)
     devDependencies:
       '@swc/core':
         specifier: 1.3.77
@@ -4455,7 +4455,7 @@ packages:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.31(nats@2.15.1)(pino@8.15.0)
+      moleculer: 0.14.31(nats@2.16.0)(pino@8.15.0)
       path-to-regexp: 3.2.0
       qs: 6.11.2
       serve-static: 1.15.0
@@ -4463,7 +4463,7 @@ packages:
       - supports-color
     dev: false
 
-  /moleculer@0.14.31(nats@2.15.1)(pino@8.15.0):
+  /moleculer@0.14.31(nats@2.16.0)(pino@8.15.0):
     resolution: {integrity: sha512-EbcafGr4KWfltjwrV+k8xLA7majB7g8RvsD6aQ2bwzYpBo5e8xp9jYlJPpfScoORXAwT75puAqQTrFmAaBpYqA==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
@@ -4544,7 +4544,7 @@ packages:
       kleur: 4.1.5
       lodash: 4.17.21
       lru-cache: 6.0.0
-      nats: 2.15.1
+      nats: 2.16.0
       node-fetch: 2.6.12
       pino: 8.15.0
       recursive-watch: 1.1.4
@@ -4588,8 +4588,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nats@2.15.1:
-    resolution: {integrity: sha512-MMCQXxOLv3dUwh0CRai0RGdMdAHjA3LNOYEAdNkLT8GX4CJFVKlYqkM3K9qVkYhvWwiCUVPHWFSktcrhexSzSw==}
+  /nats@2.16.0:
+    resolution: {integrity: sha512-VH0FiMGMjv+6+DGz5sPfpEkOQXn9rVtadJ3l1D0+HzezVks5lCl2WTgNO3Q0Ba5n43n+BOz95U5muPF3EpsEtA==}
     engines: {node: '>= 14.0.0'}
     dependencies:
       nkeys.js: 1.0.5
@@ -5016,12 +5016,12 @@ packages:
     engines: {node: '>=4.0.0'}
     dev: false
 
-  /pg-pool@3.6.1(pg@8.11.2):
+  /pg-pool@3.6.1(pg@8.11.3):
     resolution: {integrity: sha512-jizsIzhkIitxCGfPRzJn1ZdcosIt3pz9Sh3V01fm1vZnbnCMgmGl5wvGGdNN2EL9Rmb0EcFoCkixH4Pu+sP9Og==}
     peerDependencies:
       pg: '>=8.0'
     dependencies:
-      pg: 8.11.2
+      pg: 8.11.3
     dev: false
 
   /pg-protocol@1.6.0:
@@ -5039,8 +5039,8 @@ packages:
       postgres-interval: 1.2.0
     dev: false
 
-  /pg@8.11.2:
-    resolution: {integrity: sha512-l4rmVeV8qTIrrPrIR3kZQqBgSN93331s9i6wiUiLOSk0Q7PmUxZD/m1rQI622l3NfqBby9Ar5PABfS/SulfieQ==}
+  /pg@8.11.3:
+    resolution: {integrity: sha512-+9iuvG8QfaaUrrph+kpF24cXkH1YOOUeArRNYIxq1viYHZagBxrTno7cecY1Fa44tJeZvaoG+Djpkc3JwehN5g==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -5051,7 +5051,7 @@ packages:
       buffer-writer: 2.0.0
       packet-reader: 1.0.0
       pg-connection-string: 2.6.2
-      pg-pool: 3.6.1(pg@8.11.2)
+      pg-pool: 3.6.1(pg@8.11.3)
       pg-protocol: 1.6.0
       pg-types: 2.2.0
       pgpass: 1.0.5
@@ -6223,7 +6223,7 @@ packages:
       is-typedarray: 1.0.0
     dev: true
 
-  /typeorm@0.3.17(pg@8.11.2)(ts-node@10.9.1):
+  /typeorm@0.3.17(pg@8.11.3)(ts-node@10.9.1):
     resolution: {integrity: sha512-UDjUEwIQalO9tWw9O2A4GU+sT3oyoUXheHJy4ft+RFdnRdQctdQ34L9SqE2p7LdwzafHx1maxT+bqXON+Qnmig==}
     engines: {node: '>= 12.9.0'}
     hasBin: true
@@ -6291,7 +6291,7 @@ packages:
       dotenv: 16.3.1
       glob: 8.1.0
       mkdirp: 2.1.6
-      pg: 8.11.2
+      pg: 8.11.3
       reflect-metadata: 0.1.13
       sha.js: 2.4.11
       ts-node: 10.9.1(@swc/core@1.3.77)(@types/node@20.5.0)(typescript@5.1.6)
