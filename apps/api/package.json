@@ -36,8 +36,8 @@
     "pino": "8.15.0"
   },
   "devDependencies": {
-    "@types/jest": "29.5.3",
-    "@types/node": "20.5.2",
+    "@types/jest": "29.5.4",
+    "@types/node": "20.5.3",
     "@vitest/ui": "0.34.2",
     "c8": "8.0.1",
     "hygen": "6.2.11",
