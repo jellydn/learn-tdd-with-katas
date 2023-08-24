@@ -1,11 +1,18 @@
 import { AppDataSource } from "./data-source";
 import { User } from "./entity/User";
 
+/**
+ * Initialize the database connection.
+ */
 export function initDbConnection() {
 	return AppDataSource.initialize();
 }
 
-// add new user
+/**
+ * Add a new user.
+ * @param user - The user to add.
+ * @returns The newly created user.
+ */
 export async function addUser(user: Partial<User>) {
 	const userRepo = AppDataSource.getRepository(User);
 	const newUser = userRepo.create(user);
@@ -18,7 +25,11 @@ export async function getAllUsers() {
 	return userRepo.find();
 }
 
-// get user by id
+/**
+ * Get a user by id.
+ * @param userId - This is the user id.
+ * @returns The user with the given id.
+ */
 export async function getUserByUserId(userId: number) {
 	const userRepo = AppDataSource.getRepository(User);
 	return userRepo.findOneOrFail({
@@ -28,7 +39,12 @@ export async function getUserByUserId(userId: number) {
 	});
 }
 
-// update user
+/**
+ * Update a user.
+ * @param userId - The user id.
+ * @param user - The user to update.
+ * @returns if the user is updated.
+ */
 export async function updateUser(userId: number, user: Partial<User>) {
 	const userRepo = AppDataSource.getRepository(User);
 	const userToUpdate = await userRepo.findOneOrFail({
@@ -40,7 +56,11 @@ export async function updateUser(userId: number, user: Partial<User>) {
 	return userRepo.save(userToUpdate);
 }
 
-// soft delete user
+/**
+ * Soft delete a user.
+ * @param userId - id of the user to delete.
+ * @returns if the user is deleted.
+ */
 export async function deleteUser(userId: number) {
 	const userRepo = AppDataSource.getRepository(User);
 	const userToDelete = await userRepo.findOneOrFail({
