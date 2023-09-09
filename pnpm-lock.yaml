@@ -70,8 +70,8 @@ importers:
         specifier: 6.2.11
         version: 6.2.11
       moleculer-repl:
-        specifier: 0.7.3
-        version: 0.7.3
+        specifier: 0.7.4
+        version: 0.7.4
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -4573,8 +4573,8 @@ packages:
       ufo: 1.3.0
     dev: true
 
-  /moleculer-repl@0.7.3:
-    resolution: {integrity: sha512-J2mIBGxcqdLaz4ETLfAj00vL3cyWMAanBYhELvx0UsH0+4Bn8ThYfBL6R2l0z6X1Zir2w06ppjuujjLCp63s4w==}
+  /moleculer-repl@0.7.4:
+    resolution: {integrity: sha512-+K3aPhxPt96d995EpNslDNQCyjV8O53CiQpZI4tiUiv0cpFUA7ZYcyRNQSgFeDHpJm/ljm1itHB+1p2++ZG6bg==}
     engines: {node: '>= 12.x.x'}
     dependencies:
       clui: 0.3.6
