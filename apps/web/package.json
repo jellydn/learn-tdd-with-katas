@@ -17,8 +17,8 @@
   },
   "devDependencies": {
     "@babel/core": "7.23.2",
-    "@types/node": "20.8.8",
-    "@types/react": "18.2.31",
+    "@types/node": "20.8.9",
+    "@types/react": "18.2.32",
     "@types/react-dom": "18.2.14",
     "tsconfig": "workspace:*",
     "typescript": "5.2.2"
