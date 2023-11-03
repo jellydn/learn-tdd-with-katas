@@ -32,7 +32,7 @@
     "helmet": "7.0.0",
     "moleculer": "0.14.31",
     "moleculer-web": "0.10.6",
-    "nats": "2.17.0",
+    "nats": "2.18.0",
     "pino": "8.16.1"
   },
   "devDependencies": {
