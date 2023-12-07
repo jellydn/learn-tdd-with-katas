@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.11",
-    "@types/node": "20.10.3",
+    "@types/node": "20.10.4",
     "@vitest/ui": "0.34.7",
     "c8": "8.0.1",
     "hygen": "6.2.11",
