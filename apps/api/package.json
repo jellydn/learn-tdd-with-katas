@@ -45,7 +45,7 @@
     "tsconfig": "workspace:*",
     "tsup": "7.3.0",
     "typescript": "5.3.3",
-    "vite": "5.0.6",
+    "vite": "5.0.7",
     "vitest": "0.34.6"
   },
   "engines": {
