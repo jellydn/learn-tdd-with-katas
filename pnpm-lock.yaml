@@ -15,8 +15,8 @@ importers:
         specifier: 0.1.1
         version: 0.1.1
       '@turbo/gen':
-        specifier: 1.11.1
-        version: 1.11.1(@types/node@20.10.4)(typescript@5.3.3)
+        specifier: 1.11.2
+        version: 1.11.2(@types/node@20.10.4)(typescript@5.3.3)
       eslint:
         specifier: 8.55.0
         version: 8.55.0
@@ -113,8 +113,8 @@ importers:
         specifier: 20.10.4
         version: 20.10.4
       '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
+        specifier: 18.2.45
+        version: 18.2.45
       '@types/react-dom':
         specifier: 18.2.17
         version: 18.2.17
@@ -177,8 +177,8 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.2.43
-        version: 18.2.43
+        specifier: 18.2.45
+        version: 18.2.45
       '@types/react-dom':
         specifier: 18.2.17
         version: 18.2.17
@@ -1591,11 +1591,11 @@ packages:
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  /@turbo/gen@1.11.1(@types/node@20.10.4)(typescript@5.3.3):
-    resolution: {integrity: sha512-+IxFelmvEG/YnJ2/K8FFfe3X/DAFASvLxz5snfZpJWUBhYu6oUR+b4k/6EbKgqWTOLUgyca9IN+Tog4od+S0Qg==}
+  /@turbo/gen@1.11.2(@types/node@20.10.4)(typescript@5.3.3):
+    resolution: {integrity: sha512-zV4vwedEujiAcACPnFXnKat8IqDo0EVJpMbS3W5CiokUBv35vw5PjldjqKcdh0GIiUTlriWGwRU6FZ8pzBg+kg==}
     hasBin: true
     dependencies:
-      '@turbo/workspaces': 1.11.1
+      '@turbo/workspaces': 1.11.2
       chalk: 2.4.2
       commander: 10.0.1
       fs-extra: 10.1.0
@@ -1614,8 +1614,8 @@ packages:
       - typescript
     dev: true
 
-  /@turbo/workspaces@1.11.1:
-    resolution: {integrity: sha512-15rZ/pNT3Nf9yKgp3Mod2mDlCrTpN6jC+aqofSkYkAG97PBKwpNIWuN/HRSIvugJzEh/+PWfDWg2cCcp2OrUkw==}
+  /@turbo/workspaces@1.11.2:
+    resolution: {integrity: sha512-yP6xKV0Cst6U1PDCTaGz0B0ufcD22LfGsMcOmv36+HaajnnaAnNZDUbdfO3LDD4VR7dyMtBOgqkqREJ8vBWSzA==}
     hasBin: true
     dependencies:
       chalk: 2.4.2
@@ -1734,11 +1734,11 @@ packages:
   /@types/react-dom@18.2.17:
     resolution: {integrity: sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==}
     dependencies:
-      '@types/react': 18.2.43
+      '@types/react': 18.2.45
     dev: true
 
-  /@types/react@18.2.43:
-    resolution: {integrity: sha512-nvOV01ZdBdd/KW6FahSbcNplt2jCJfyWdTos61RYHV+FVv5L/g9AOX1bmbVcWcLFL8+KHQfh1zVIQrud6ihyQA==}
+  /@types/react@18.2.45:
+    resolution: {integrity: sha512-TtAxCNrlrBp8GoeEp1npd5g+d/OejJHFxS3OWmrPBMFaVQMSN0OFySozJio5BHxTuTeug00AVXVAjfDSfk+lUg==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
