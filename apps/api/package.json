@@ -33,11 +33,11 @@
     "moleculer": "0.14.32",
     "moleculer-web": "0.10.7",
     "nats": "2.19.0",
-    "pino": "8.17.2"
+    "pino": "8.18.0"
   },
   "devDependencies": {
-    "@types/jest": "29.5.11",
-    "@types/node": "20.11.14",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.11.16",
     "@vitest/ui": "1.2.2",
     "c8": "8.0.1",
     "hygen": "6.2.11",
