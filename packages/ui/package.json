@@ -6,7 +6,7 @@
   "types": "./index.tsx",
   "scripts": {},
   "devDependencies": {
-    "@types/react": "18.2.51",
+    "@types/react": "18.2.52",
     "@types/react-dom": "18.2.18",
     "react": "18.2.0",
     "tsconfig": "workspace:*",
