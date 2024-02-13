@@ -28,7 +28,7 @@
   "dependencies": {
     "common": "workspace:*",
     "db": "workspace:*",
-    "dotenv": "16.4.3",
+    "dotenv": "16.4.4",
     "helmet": "7.1.0",
     "moleculer": "0.14.32",
     "moleculer-web": "0.10.7",
