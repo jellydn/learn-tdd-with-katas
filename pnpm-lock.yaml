@@ -36,8 +36,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/db
       dotenv:
-        specifier: 16.4.2
-        version: 16.4.2
+        specifier: 16.4.3
+        version: 16.4.3
       helmet:
         specifier: 7.1.0
         version: 7.1.0
@@ -2798,8 +2798,8 @@ packages:
       no-case: 2.3.2
     dev: true
 
-  /dotenv@16.4.2:
-    resolution: {integrity: sha512-rZSSFxke7d9nYQ5NeMIwp5PP+f8wXgKNljpOb7KtH6SKW1cEqcXAz9VSJYVLKe7Jhup/gUYOkaeSVyK8GJ+nBg==}
+  /dotenv@16.4.3:
+    resolution: {integrity: sha512-II98GFrje5psQTSve0E7bnwMFybNLqT8Vu8JIFWRjsE3khyNUm/loZupuy5DVzG2IXf/ysxvrixYOQnM6mjD3A==}
     engines: {node: '>=12'}
     dev: false
 
@@ -6739,7 +6739,7 @@ packages:
       cli-highlight: 2.1.11
       dayjs: 1.11.10
       debug: 4.3.4
-      dotenv: 16.4.2
+      dotenv: 16.4.3
       glob: 10.3.10
       mkdirp: 2.1.6
       pg: 8.11.3
