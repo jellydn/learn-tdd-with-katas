@@ -36,8 +36,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/db
       dotenv:
-        specifier: 16.4.4
-        version: 16.4.4
+        specifier: 16.4.5
+        version: 16.4.5
       helmet:
         specifier: 7.1.0
         version: 7.1.0
@@ -113,8 +113,8 @@ importers:
         specifier: 20.11.19
         version: 20.11.19
       '@types/react':
-        specifier: 18.2.56
-        version: 18.2.56
+        specifier: 18.2.57
+        version: 18.2.57
       '@types/react-dom':
         specifier: 18.2.19
         version: 18.2.19
@@ -177,8 +177,8 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.2.56
-        version: 18.2.56
+        specifier: 18.2.57
+        version: 18.2.57
       '@types/react-dom':
         specifier: 18.2.19
         version: 18.2.19
@@ -1741,11 +1741,11 @@ packages:
   /@types/react-dom@18.2.19:
     resolution: {integrity: sha512-aZvQL6uUbIJpjZk4U8JZGbau9KDeAwMfmhyWorxgBkqDIEf6ROjRozcmPIicqsUwPUjbkDfHKgGee1Lq65APcA==}
     dependencies:
-      '@types/react': 18.2.56
+      '@types/react': 18.2.57
     dev: true
 
-  /@types/react@18.2.56:
-    resolution: {integrity: sha512-NpwHDMkS/EFZF2dONFQHgkPRwhvgq/OAvIaGQzxGSBmaeR++kTg6njr15Vatz0/2VcCEwJQFi6Jf4Q0qBu0rLA==}
+  /@types/react@18.2.57:
+    resolution: {integrity: sha512-ZvQsktJgSYrQiMirAN60y4O/LRevIV8hUzSOSNB6gfR3/o3wCBFQx3sPwIYtuDMeiVgsSS3UzCV26tEzgnfvQw==}
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
@@ -2798,8 +2798,8 @@ packages:
       no-case: 2.3.2
     dev: true
 
-  /dotenv@16.4.4:
-    resolution: {integrity: sha512-XvPXc8XAQThSjAbY6cQ/9PcBXmFoWuw1sQ3b8HqUCR6ziGXjkTi//kB9SWa2UwqlgdAIuRqAa/9hVljzPehbYg==}
+  /dotenv@16.4.5:
+    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
     engines: {node: '>=12'}
     dev: false
 
@@ -6750,7 +6750,7 @@ packages:
       cli-highlight: 2.1.11
       dayjs: 1.11.10
       debug: 4.3.4
-      dotenv: 16.4.4
+      dotenv: 16.4.5
       glob: 10.3.10
       mkdirp: 2.1.6
       pg: 8.11.3
