@@ -6,8 +6,8 @@
   "types": "./index.tsx",
   "scripts": {},
   "devDependencies": {
-    "@types/react": "18.2.64",
-    "@types/react-dom": "18.2.21",
+    "@types/react": "18.2.66",
+    "@types/react-dom": "18.2.22",
     "react": "18.2.0",
     "tsconfig": "workspace:*",
     "typescript": "5.4.2"
