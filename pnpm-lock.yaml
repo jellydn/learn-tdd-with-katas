@@ -43,13 +43,13 @@ importers:
         version: 7.1.0
       moleculer:
         specifier: 0.14.32
-        version: 0.14.32(nats@2.19.0)(pino@8.19.0)
+        version: 0.14.32(nats@2.21.0)(pino@8.19.0)
       moleculer-web:
         specifier: 0.10.7
         version: 0.10.7(moleculer@0.14.32)
       nats:
-        specifier: 2.19.0
-        version: 2.19.0
+        specifier: 2.21.0
+        version: 2.21.0
       pino:
         specifier: 8.19.0
         version: 8.19.0
@@ -113,8 +113,8 @@ importers:
         specifier: 20.11.30
         version: 20.11.30
       '@types/react':
-        specifier: 18.2.72
-        version: 18.2.72
+        specifier: 18.2.73
+        version: 18.2.73
       '@types/react-dom':
         specifier: 18.2.22
         version: 18.2.22
@@ -177,8 +177,8 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.2.72
-        version: 18.2.72
+        specifier: 18.2.73
+        version: 18.2.73
       '@types/react-dom':
         specifier: 18.2.22
         version: 18.2.22
@@ -1951,11 +1951,11 @@ packages:
   /@types/react-dom@18.2.22:
     resolution: {integrity: sha512-fHkBXPeNtfvri6gdsMYyW+dW7RXFo6Ad09nLFK0VQWR7yGLai/Cyvyj696gbwYvBnhGtevUG9cET0pmUbMtoPQ==}
     dependencies:
-      '@types/react': 18.2.72
+      '@types/react': 18.2.73
     dev: true
 
-  /@types/react@18.2.72:
-    resolution: {integrity: sha512-/e7GWxGzXQF7OJAua7UAYqYi/4VpXEfbGtmYQcAQwP3SjjjAXfybTf/JK5S+SaetB/ChXl8Y2g1hCsj7jDXxcg==}
+  /@types/react@18.2.73:
+    resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
@@ -5072,7 +5072,7 @@ packages:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.32(nats@2.19.0)(pino@8.19.0)
+      moleculer: 0.14.32(nats@2.21.0)(pino@8.19.0)
       path-to-regexp: 3.2.0
       qs: 6.12.0
       serve-static: 1.15.0
@@ -5080,7 +5080,7 @@ packages:
       - supports-color
     dev: false
 
-  /moleculer@0.14.32(nats@2.19.0)(pino@8.19.0):
+  /moleculer@0.14.32(nats@2.21.0)(pino@8.19.0):
     resolution: {integrity: sha512-N5RXKS9Z01Gl6gLkf3snLgYbzU0bLci1WNEIuy2D+cjEg7i3XEArsiFHKnmNYWF6L5DajVrT8dw9EqGgvmjmOw==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
@@ -5161,7 +5161,7 @@ packages:
       kleur: 4.1.5
       lodash: 4.17.21
       lru-cache: 6.0.0
-      nats: 2.19.0
+      nats: 2.21.0
       node-fetch: 2.7.0
       pino: 8.19.0
       recursive-watch: 1.1.4
@@ -5210,11 +5210,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nats@2.19.0:
-    resolution: {integrity: sha512-TuOAqPljCRpfHPo2o3midezchqYJUOOnK/YLmYf9rdoshzlYN1xvCd9dAKveVB6Bfubp/m63eN3l3ukfn43JOg==}
+  /nats@2.21.0:
+    resolution: {integrity: sha512-sHXlOmcPsk/JWUcUvgQKCEhzUS9VsBdazYsIN/2eQv4WENuiHlJDMDxq+4HWTLOxfti05okvgeE7d6wMt5yHfQ==}
     engines: {node: '>= 14.0.0'}
     dependencies:
-      nkeys.js: 1.0.5
+      nkeys.js: 1.1.0
     dev: false
 
   /natural-compare@1.4.0:
@@ -5277,8 +5277,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /nkeys.js@1.0.5:
-    resolution: {integrity: sha512-u25YnRPHiGVsNzwyHnn+PT90sgAhnS8jUJ1nxmkHMFYCJ6+Ic0lv291w7uhRBpJVJ3PH2GWbYqA151lGCRrB5g==}
+  /nkeys.js@1.1.0:
+    resolution: {integrity: sha512-tB/a0shZL5UZWSwsoeyqfTszONTt4k2YS0tuQioMOD180+MbombYVgzDUYHlx+gejYK6rgf08n/2Df99WY0Sxg==}
     engines: {node: '>=10.0.0'}
     dependencies:
       tweetnacl: 1.0.3
