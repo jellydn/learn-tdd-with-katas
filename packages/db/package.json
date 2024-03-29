@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "pg": "8.11.3",
-    "reflect-metadata": "0.2.1",
+    "reflect-metadata": "0.2.2",
     "typeorm": "0.3.20"
   },
   "devDependencies": {
