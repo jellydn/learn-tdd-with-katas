@@ -15,8 +15,8 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       '@turbo/gen':
-        specifier: 1.13.0
-        version: 1.13.0(@types/node@20.12.2)(typescript@5.4.3)
+        specifier: 1.13.1
+        version: 1.13.1(@types/node@20.12.2)(typescript@5.4.3)
       eslint:
         specifier: 8.57.0
         version: 8.57.0
@@ -1820,11 +1820,11 @@ packages:
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  /@turbo/gen@1.13.0(@types/node@20.12.2)(typescript@5.4.3):
-    resolution: {integrity: sha512-AxIrDubYDLdYBNZC/t3Gn0B7v+zhlM3V7VoMhopKrMWSL0YsjpW/OcDThmV+WglVlkPLmk95ncvXvgfn5RrsBw==}
+  /@turbo/gen@1.13.1(@types/node@20.12.2)(typescript@5.4.3):
+    resolution: {integrity: sha512-oNhq6JdCKMw7Sl3dpJCNWfEzuZkdPUYx04EkyMtxYmmZ173DtqJe8FCYezDgTnDzRxTZ4KllmAMjrde4woGVxA==}
     hasBin: true
     dependencies:
-      '@turbo/workspaces': 1.13.0
+      '@turbo/workspaces': 1.13.1
       chalk: 2.4.2
       commander: 10.0.1
       fs-extra: 10.1.0
@@ -1843,8 +1843,8 @@ packages:
       - typescript
     dev: true
 
-  /@turbo/workspaces@1.13.0:
-    resolution: {integrity: sha512-0wA1KeHK3OCsKISZziga9YopWROO+aFgSgIbUd3HUn9YG7OK6JPwTgrlxA1LwhjqiovggbKbYRnqW0PmE+3qBA==}
+  /@turbo/workspaces@1.13.1:
+    resolution: {integrity: sha512-orwShrjo7GBD+Psi+xzzkT+ep7GQ0fn8Lfs78MVdNkHNab0TLo1vlJH76bmnZ++gkuahsmLnbRz0hSJlvIEgiQ==}
     hasBin: true
     dependencies:
       chalk: 2.4.2
