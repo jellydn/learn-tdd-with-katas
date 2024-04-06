@@ -43,7 +43,7 @@ importers:
         version: 7.1.0
       moleculer:
         specifier: 0.14.33
-        version: 0.14.33(nats@2.21.0)(pino@8.19.0)
+        version: 0.14.33(nats@2.21.0)(pino@8.20.0)
       moleculer-web:
         specifier: 0.10.7
         version: 0.10.7(moleculer@0.14.33)
@@ -51,8 +51,8 @@ importers:
         specifier: 2.21.0
         version: 2.21.0
       pino:
-        specifier: 8.19.0
-        version: 8.19.0
+        specifier: 8.20.0
+        version: 8.20.0
     devDependencies:
       '@types/jest':
         specifier: 29.5.12
@@ -128,8 +128,8 @@ importers:
   packages/common:
     dependencies:
       pino:
-        specifier: 8.19.0
-        version: 8.19.0
+        specifier: 8.20.0
+        version: 8.20.0
     devDependencies:
       tsconfig:
         specifier: workspace:*
@@ -5099,7 +5099,7 @@ packages:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.33(nats@2.21.0)(pino@8.19.0)
+      moleculer: 0.14.33(nats@2.21.0)(pino@8.20.0)
       path-to-regexp: 3.2.0
       qs: 6.12.0
       serve-static: 1.15.0
@@ -5107,7 +5107,7 @@ packages:
       - supports-color
     dev: false
 
-  /moleculer@0.14.33(nats@2.21.0)(pino@8.19.0):
+  /moleculer@0.14.33(nats@2.21.0)(pino@8.20.0):
     resolution: {integrity: sha512-0B8BT4hyems30UYGzkgP0yuO0HbWRzqytmvVqBBKSW9T65wJhzDu97xLjfpILTvFDPehvWkUvKI+w3557eI0fA==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
@@ -5190,7 +5190,7 @@ packages:
       lru-cache: 6.0.0
       nats: 2.21.0
       node-fetch: 2.7.0
-      pino: 8.19.0
+      pino: 8.20.0
       recursive-watch: 1.1.4
     transitivePeerDependencies:
       - encoding
@@ -5765,8 +5765,8 @@ packages:
     resolution: {integrity: sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==}
     dev: false
 
-  /pino@8.19.0:
-    resolution: {integrity: sha512-oswmokxkav9bADfJ2ifrvfHUwad6MLp73Uat0IkQWY3iAw5xTRoznXbXksZs8oaOUMpmhVWD+PZogNzllWpJaA==}
+  /pino@8.20.0:
+    resolution: {integrity: sha512-uhIfMj5TVp+WynVASaVEJFTncTUe4dHBq6CWplu/vBgvGHhvBvQfxz+vcOrnnBQdORH3izaGEurLfNlq3YxdFQ==}
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
