@@ -16,13 +16,13 @@ importers:
         version: 0.1.2
       '@turbo/gen':
         specifier: 1.13.2
-        version: 1.13.2(@types/node@20.12.6)(typescript@5.4.4)
+        version: 1.13.2(@types/node@20.12.7)(typescript@5.4.4)
       eslint:
         specifier: 8.57.0
         version: 8.57.0
       pythagora:
         specifier: 0.0.80
-        version: 0.0.80(@types/node@20.12.6)
+        version: 0.0.80(@types/node@20.12.7)
       turbo:
         specifier: latest
         version: 1.13.0
@@ -58,8 +58,8 @@ importers:
         specifier: 29.5.12
         version: 29.5.12
       '@types/node':
-        specifier: 20.12.6
-        version: 20.12.6
+        specifier: 20.12.7
+        version: 20.12.7
       '@vitest/ui':
         specifier: 1.4.0
         version: 1.4.0(vitest@1.4.0)
@@ -83,10 +83,10 @@ importers:
         version: 5.4.4
       vite:
         specifier: 5.2.8
-        version: 5.2.8(@types/node@20.12.6)
+        version: 5.2.8(@types/node@20.12.7)
       vitest:
         specifier: 1.4.0
-        version: 1.4.0(@types/node@20.12.6)(@vitest/ui@1.4.0)
+        version: 1.4.0(@types/node@20.12.7)(@vitest/ui@1.4.0)
 
   apps/web:
     dependencies:
@@ -110,8 +110,8 @@ importers:
         specifier: 7.24.4
         version: 7.24.4
       '@types/node':
-        specifier: 20.12.6
-        version: 20.12.6
+        specifier: 20.12.7
+        version: 20.12.7
       '@types/react':
         specifier: 18.2.75
         version: 18.2.75
@@ -157,11 +157,11 @@ importers:
         specifier: 1.4.13
         version: 1.4.13
       '@types/node':
-        specifier: 20.12.6
-        version: 20.12.6
+        specifier: 20.12.7
+        version: 20.12.7
       ts-node:
         specifier: 10.9.2
-        version: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.6)(typescript@5.4.4)
+        version: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.7)(typescript@5.4.4)
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
@@ -1143,7 +1143,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       jest-message-util: 29.7.0
       jest-util: 29.7.0
@@ -1164,14 +1164,14 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       ci-info: 3.9.0
       exit: 0.1.2
       graceful-fs: 4.2.11
       jest-changed-files: 29.7.0
-      jest-config: 29.7.0(@types/node@20.12.6)
+      jest-config: 29.7.0(@types/node@20.12.7)
       jest-haste-map: 29.7.0
       jest-message-util: 29.7.0
       jest-regex-util: 29.6.3
@@ -1199,7 +1199,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       jest-mock: 29.7.0
     dev: true
 
@@ -1226,7 +1226,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -1259,7 +1259,7 @@ packages:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       '@jridgewell/trace-mapping': 0.3.25
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -1347,7 +1347,7 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       '@types/yargs': 17.0.32
       chalk: 4.1.2
     dev: true
@@ -1836,7 +1836,7 @@ packages:
   /@tsconfig/node16@1.0.4:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  /@turbo/gen@1.13.2(@types/node@20.12.6)(typescript@5.4.4):
+  /@turbo/gen@1.13.2(@types/node@20.12.7)(typescript@5.4.4):
     resolution: {integrity: sha512-6/Z90XAMbfQCFX3QUyVEy5Te1u8Bm/K2ob7FaD7OrFYLtnKnzTghH1pOglFqfmdHqLusCrGEF00J9lKz176BNQ==}
     hasBin: true
     dependencies:
@@ -1848,7 +1848,7 @@ packages:
       minimatch: 9.0.4
       node-plop: 0.26.3
       proxy-agent: 6.4.0
-      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.6)(typescript@5.4.4)
+      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.7)(typescript@5.4.4)
       update-check: 1.5.4
       validate-npm-package-name: 5.0.0
     transitivePeerDependencies:
@@ -1920,13 +1920,13 @@ packages:
     resolution: {integrity: sha512-ZUxbzKl0IfJILTS6t7ip5fQQM/J3TJYubDm3nMbgubNNYS62eXeUpoLUC8/7fJNiFYHTrGPQn7hspDUzIHX3UA==}
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
     dev: true
 
   /@types/graceful-fs@4.1.9:
     resolution: {integrity: sha512-olP3sd1qOEe5dXTSaFvQG+02VdRXcdytWLAZsAq1PecU8uqQAhkrnbli7DagjtXKW/Bl7YJbUsa8MPcuc8LHEQ==}
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
     dev: true
 
   /@types/inquirer@6.5.0:
@@ -1971,8 +1971,8 @@ packages:
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
     dev: true
 
-  /@types/node@20.12.6:
-    resolution: {integrity: sha512-3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==}
+  /@types/node@20.12.7:
+    resolution: {integrity: sha512-wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==}
     dependencies:
       undici-types: 5.26.5
 
@@ -2000,7 +2000,7 @@ packages:
   /@types/through@0.0.33:
     resolution: {integrity: sha512-HsJ+z3QuETzP3cswwtzt2vEIiHBk/dCcHGhbmG5X3ecnwFD/lPrMpliGXxSCg03L9AhrdwA4Oz/qfspkDW+xGQ==}
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
     dev: true
 
   /@types/tinycolor2@1.4.6:
@@ -2063,7 +2063,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.4.0(@types/node@20.12.6)(@vitest/ui@1.4.0)
+      vitest: 1.4.0(@types/node@20.12.7)(@vitest/ui@1.4.0)
     dev: true
 
   /@vitest/utils@1.4.0:
@@ -2818,7 +2818,7 @@ packages:
     requiresBuild: true
     dev: true
 
-  /create-jest@29.7.0(@types/node@20.12.6):
+  /create-jest@29.7.0(@types/node@20.12.7):
     resolution: {integrity: sha512-Adz2bdH0Vq3F53KEMJOoftQFutWCukm6J24wbPWRO4k1kMY7gS7ds/uoJkNuV8wDCtWWnuwGcJwpWcih+zEW1Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -2827,7 +2827,7 @@ packages:
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@20.12.6)
+      jest-config: 29.7.0(@types/node@20.12.7)
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -4310,7 +4310,7 @@ packages:
       '@jest/expect': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       co: 4.6.0
       dedent: 1.5.1
@@ -4331,7 +4331,7 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli@29.7.0(@types/node@20.12.6):
+  /jest-cli@29.7.0(@types/node@20.12.7):
     resolution: {integrity: sha512-OVVobw2IubN/GSYsxETi+gOe7Ka59EFMR/twOU3Jb2GnKKeMGJB5SGUUrEz3SFVmJASUdZUzy83sLNNQ2gZslg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -4345,10 +4345,10 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@20.12.6)
+      create-jest: 29.7.0(@types/node@20.12.7)
       exit: 0.1.2
       import-local: 3.1.0
-      jest-config: 29.7.0(@types/node@20.12.6)
+      jest-config: 29.7.0(@types/node@20.12.7)
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.2
@@ -4359,7 +4359,7 @@ packages:
       - ts-node
     dev: true
 
-  /jest-config@29.7.0(@types/node@20.12.6):
+  /jest-config@29.7.0(@types/node@20.12.7):
     resolution: {integrity: sha512-uXbpfeQ7R6TZBqI3/TxCU4q4ttk3u0PJeC+E0zbfSoSjq6bJ7buBPxzQPL0ifrkY4DNu4JUdk0ImlBUYi840eQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
@@ -4374,7 +4374,7 @@ packages:
       '@babel/core': 7.24.4
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       babel-jest: 29.7.0(@babel/core@7.24.4)
       chalk: 4.1.2
       ci-info: 3.9.0
@@ -4434,7 +4434,7 @@ packages:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       jest-mock: 29.7.0
       jest-util: 29.7.0
     dev: true
@@ -4450,7 +4450,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@types/graceful-fs': 4.1.9
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -4501,7 +4501,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       jest-util: 29.7.0
     dev: true
 
@@ -4556,7 +4556,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       emittery: 0.13.1
       graceful-fs: 4.2.11
@@ -4587,7 +4587,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       cjs-module-lexer: 1.2.3
       collect-v8-coverage: 1.0.2
@@ -4639,7 +4639,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -4664,7 +4664,7 @@ packages:
     dependencies:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -4676,13 +4676,13 @@ packages:
     resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
 
-  /jest@29.7.0(@types/node@20.12.6):
+  /jest@29.7.0(@types/node@20.12.7):
     resolution: {integrity: sha512-NIy3oAFp9shda19hy4HK0HRTWKtPJmGdnvywu01nOqNC2vZg+Z+fvJDxpMQA88eb2I9EcafcdjYgsDthnYTvGw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -4695,7 +4695,7 @@ packages:
       '@jest/core': 29.7.0
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0(@types/node@20.12.6)
+      jest-cli: 29.7.0(@types/node@20.12.7)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -5820,7 +5820,7 @@ packages:
         optional: true
     dependencies:
       lilconfig: 3.1.1
-      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.6)(typescript@5.4.4)
+      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.7)(typescript@5.4.4)
       yaml: 2.4.1
     dev: true
 
@@ -5936,7 +5936,7 @@ packages:
     resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
     dev: true
 
-  /pythagora@0.0.80(@types/node@20.12.6):
+  /pythagora@0.0.80(@types/node@20.12.7):
     resolution: {integrity: sha512-R7t1kHrE3nTTmWxBaeuNTZcBnXJGIg3LeDEZMoTxYkVLweTUJo8ZRPkZzhj/4TQWADq2xV+OPjEG8VUugTVWeQ==}
     engines: {node: '>=14.x'}
     hasBin: true
@@ -5950,7 +5950,7 @@ packages:
       blessed: 0.1.81
       body-parser: 1.20.2
       handlebars: 4.7.8
-      jest: 29.7.0(@types/node@20.12.6)
+      jest: 29.7.0(@types/node@20.12.7)
       lodash: 4.17.21
       nyc: 15.1.0
       tryrequire: 3.0.0
@@ -6770,7 +6770,7 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: true
 
-  /ts-node@10.9.2(@swc/core@1.4.13)(@types/node@20.12.6)(typescript@5.4.4):
+  /ts-node@10.9.2(@swc/core@1.4.13)(@types/node@20.12.7)(typescript@5.4.4):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -6790,7 +6790,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
@@ -7031,7 +7031,7 @@ packages:
       pg: 8.11.5
       reflect-metadata: 0.2.2
       sha.js: 2.4.11
-      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.6)(typescript@5.4.4)
+      ts-node: 10.9.2(@swc/core@1.4.13)(@types/node@20.12.7)(typescript@5.4.4)
       tslib: 2.6.2
       uuid: 9.0.1
       yargs: 17.7.2
@@ -7143,7 +7143,7 @@ packages:
       builtins: 5.0.1
     dev: true
 
-  /vite-node@1.4.0(@types/node@20.12.6):
+  /vite-node@1.4.0(@types/node@20.12.7):
     resolution: {integrity: sha512-VZDAseqjrHgNd4Kh8icYHWzTKSCZMhia7GyHfhtzLW33fZlG9SwsB6CEhgyVOWkJfJ2pFLrp/Gj1FSfAiqH9Lw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7152,7 +7152,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.2
       picocolors: 1.0.0
-      vite: 5.2.8(@types/node@20.12.6)
+      vite: 5.2.8(@types/node@20.12.7)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -7164,7 +7164,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.2.8(@types/node@20.12.6):
+  /vite@5.2.8(@types/node@20.12.7):
     resolution: {integrity: sha512-OyZR+c1CE8yeHw5V5t59aXsUPPVTHMDjEZz8MgguLL/Q7NblxhZUlTu9xSPqlsUO/y+X7dlU05jdhvyycD55DA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7192,7 +7192,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.13.2
@@ -7200,7 +7200,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.4.0(@types/node@20.12.6)(@vitest/ui@1.4.0):
+  /vitest@1.4.0(@types/node@20.12.7)(@vitest/ui@1.4.0):
     resolution: {integrity: sha512-gujzn0g7fmwf83/WzrDTnncZt2UiXP41mHuFYFrdwaLRVQ6JYQEiME2IfEjU3vcFL3VKa75XhI3lFgn+hfVsQw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7225,7 +7225,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.12.6
+      '@types/node': 20.12.7
       '@vitest/expect': 1.4.0
       '@vitest/runner': 1.4.0
       '@vitest/snapshot': 1.4.0
@@ -7244,8 +7244,8 @@ packages:
       strip-literal: 2.1.0
       tinybench: 2.6.0
       tinypool: 0.8.3
-      vite: 5.2.8(@types/node@20.12.6)
-      vite-node: 1.4.0(@types/node@20.12.6)
+      vite: 5.2.8(@types/node@20.12.7)
+      vite-node: 1.4.0(@types/node@20.12.7)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
