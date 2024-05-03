@@ -32,13 +32,13 @@
     "helmet": "7.1.0",
     "moleculer": "0.14.33",
     "moleculer-web": "0.10.7",
-    "nats": "2.23.0",
+    "nats": "2.24.0",
     "pino": "8.21.0"
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
     "@types/node": "20.12.8",
-    "@vitest/ui": "1.5.3",
+    "@vitest/ui": "1.6.0",
     "c8": "8.0.1",
     "hygen": "6.2.11",
     "moleculer-repl": "0.7.4",
@@ -46,7 +46,7 @@
     "tsup": "8.0.2",
     "typescript": "5.4.5",
     "vite": "5.2.11",
-    "vitest": "1.5.3"
+    "vitest": "1.6.0"
   },
   "engines": {
     "node": ">= 14.x.x"
