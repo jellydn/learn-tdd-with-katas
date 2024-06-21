@@ -43,7 +43,7 @@ importers:
         version: 7.1.0
       moleculer:
         specifier: 0.14.33
-        version: 0.14.33(nats@2.27.0)(pino@8.21.0)
+        version: 0.14.33(nats@2.27.0)(pino@9.2.0)
       moleculer-web:
         specifier: 0.10.7
         version: 0.10.7(moleculer@0.14.33)
@@ -51,8 +51,8 @@ importers:
         specifier: 2.27.0
         version: 2.27.0
       pino:
-        specifier: 8.21.0
-        version: 8.21.0
+        specifier: 9.2.0
+        version: 9.2.0
     devDependencies:
       '@types/jest':
         specifier: 29.5.12
@@ -128,8 +128,8 @@ importers:
   packages/common:
     dependencies:
       pino:
-        specifier: 8.21.0
-        version: 8.21.0
+        specifier: 9.2.0
+        version: 9.2.0
     devDependencies:
       tsconfig:
         specifier: workspace:*
@@ -4855,7 +4855,7 @@ packages:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.33(nats@2.27.0)(pino@8.21.0)
+      moleculer: 0.14.33(nats@2.27.0)(pino@9.2.0)
       path-to-regexp: 3.2.0
       qs: 6.12.1
       serve-static: 1.15.0
@@ -4863,7 +4863,7 @@ packages:
       - supports-color
     dev: false
 
-  /moleculer@0.14.33(nats@2.27.0)(pino@8.21.0):
+  /moleculer@0.14.33(nats@2.27.0)(pino@9.2.0):
     resolution: {integrity: sha512-0B8BT4hyems30UYGzkgP0yuO0HbWRzqytmvVqBBKSW9T65wJhzDu97xLjfpILTvFDPehvWkUvKI+w3557eI0fA==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
@@ -4946,7 +4946,7 @@ packages:
       lru-cache: 6.0.0
       nats: 2.27.0
       node-fetch: 2.7.0
-      pino: 8.21.0
+      pino: 9.2.0
       recursive-watch: 1.1.4
     transitivePeerDependencies:
       - encoding
@@ -5517,25 +5517,25 @@ packages:
       split2: 4.2.0
     dev: false
 
-  /pino-std-serializers@6.2.2:
-    resolution: {integrity: sha512-cHjPPsE+vhj/tnhCy/wiMh3M3z3h/j15zHQX+S9GkTBgqJuTuJzYJ4gUyACLhDaJ7kk9ba9iRDmbH2tJU03OiA==}
+  /pino-std-serializers@7.0.0:
+    resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
     dev: false
 
-  /pino@8.21.0:
-    resolution: {integrity: sha512-ip4qdzjkAyDDZklUaZkcRFb2iA118H9SgRh8yzTkSQK8HilsOJF7rSY8HoW5+I0M46AZgX/pxbprf2vvzQCE0Q==}
+  /pino@9.2.0:
+    resolution: {integrity: sha512-g3/hpwfujK5a4oVbaefoJxezLzsDgLcNJeITvC6yrfwYeT9la+edCK42j5QpEQSQCZgTKapXvnQIdgZwvRaZug==}
     hasBin: true
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.5.0
       on-exit-leak-free: 2.1.2
       pino-abstract-transport: 1.2.0
-      pino-std-serializers: 6.2.2
+      pino-std-serializers: 7.0.0
       process-warning: 3.0.0
       quick-format-unescaped: 4.0.4
       real-require: 0.2.0
       safe-stable-stringify: 2.4.3
-      sonic-boom: 3.8.1
-      thread-stream: 2.7.0
+      sonic-boom: 4.0.1
+      thread-stream: 3.1.0
     dev: false
 
   /pirates@4.0.6:
@@ -6149,8 +6149,8 @@ packages:
       smart-buffer: 4.2.0
     dev: true
 
-  /sonic-boom@3.8.1:
-    resolution: {integrity: sha512-y4Z8LCDBuum+PBP3lSV7RHrXscqksve/bi0as7mhwVnBW+/wUqKT/2Kb7um8yqcFy0duYbbPxzt89Zy2nOCaxg==}
+  /sonic-boom@4.0.1:
+    resolution: {integrity: sha512-hTSD/6JMLyT4r9zeof6UtuBDpjJ9sO08/nmS5djaA9eozT9oOlNdpXSnzcgj4FTqpk3nkLrs61l4gip9r1HCrQ==}
     dependencies:
       atomic-sleep: 1.0.0
     dev: false
@@ -6410,8 +6410,8 @@ packages:
     dependencies:
       any-promise: 1.3.0
 
-  /thread-stream@2.7.0:
-    resolution: {integrity: sha512-qQiRWsU/wvNolI6tbbCKd9iKaTnCXsTwVxhhKM6nctPdujTyztjlbUkUTUymidWcMnZ5pWR0ej4a0tjsW021vw==}
+  /thread-stream@3.1.0:
+    resolution: {integrity: sha512-OqyPZ9u96VohAyMfJykzmivOrY2wfMSf3C5TtFJVgN+Hm6aj+voFhlK+kZEIv2FBh1X6Xp3DlnCOfEQ3B2J86A==}
     dependencies:
       real-require: 0.2.0
     dev: false
