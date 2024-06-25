@@ -1,31 +1,28 @@
 {
-  "name": "learn-tdd-with-katas",
-  "version": "0.1.0",
-  "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "generate": "turbo generate",
-    "biome": "biome",
-    "biome:check": "biome check --apply-unsafe {apps,packages}/**/*.{ts,tsx,md}",
-    "biome:format": "biome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
-    "test": "turbo run test"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "1.8.2",
-    "@total-typescript/shoehorn": "0.1.2",
-    "@turbo/gen": "2.0.5",
-    "eslint": "9.5.0",
-    "pythagora": "0.0.80",
-    "turbo": "^2.0.5"
-  },
-  "packageManager": "pnpm@8.15.8",
-  "engines": {
-    "node": ">=16.20.0"
-  }
+	"name": "learn-tdd-with-katas",
+	"version": "0.1.0",
+	"private": true,
+	"workspaces": ["apps/*", "packages/*"],
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"lint": "turbo run lint",
+		"generate": "turbo generate",
+		"biome": "biome",
+		"biome:check": "biome check --apply-unsafe {apps,packages}/**/*.{ts,tsx,md}",
+		"biome:format": "biome format --write --skip-errors {apps,packages}/**/*.{ts,tsx,md}",
+		"test": "turbo run test"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.2",
+		"@total-typescript/shoehorn": "0.1.2",
+		"@turbo/gen": "2.0.5",
+		"eslint": "9.5.0",
+		"pythagora": "0.0.80",
+		"turbo": "^2.0.5"
+	},
+	"packageManager": "pnpm@9.4.0",
+	"engines": {
+		"node": ">=16.20.0"
+	}
 }
