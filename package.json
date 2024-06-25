@@ -17,12 +17,12 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@total-typescript/shoehorn": "0.1.2",
-    "@turbo/gen": "1.13.4",
-    "eslint": "8.57.0",
-    "pythagora": "0.0.80",
     "@biomejs/biome": "1.8.2",
-    "turbo": "latest"
+    "@total-typescript/shoehorn": "0.1.2",
+    "@turbo/gen": "2.0.5",
+    "eslint": "9.5.0",
+    "pythagora": "0.0.80",
+    "turbo": "^2.0.5"
   },
   "packageManager": "pnpm@8.15.8",
   "engines": {
