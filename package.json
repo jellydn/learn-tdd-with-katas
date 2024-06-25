@@ -19,7 +19,7 @@
 		"@turbo/gen": "2.0.5",
 		"eslint": "9.5.0",
 		"pythagora": "0.0.80",
-		"turbo": "^2.0.5"
+		"turbo": "2.0.5"
 	},
 	"packageManager": "pnpm@9.4.0",
 	"engines": {
