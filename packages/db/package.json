@@ -17,11 +17,11 @@
     "typeorm": "0.3.20"
   },
   "devDependencies": {
-    "@swc/core": "1.6.13",
+    "@swc/core": "1.7.0",
     "@types/node": "20.14.11",
     "ts-node": "10.9.2",
     "tsconfig": "workspace:*",
-    "tsup": "8.1.1",
+    "tsup": "8.1.2",
     "typescript": "5.5.3"
   },
   "tsup": {
