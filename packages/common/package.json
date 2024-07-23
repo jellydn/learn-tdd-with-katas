@@ -12,8 +12,8 @@
   },
   "devDependencies": {
     "tsconfig": "workspace:*",
-    "tsup": "8.2.1",
-    "typescript": "5.5.3"
+    "tsup": "8.2.2",
+    "typescript": "5.5.4"
   },
   "tsup": {
     "entry": [

@@ -38,15 +38,15 @@
   "devDependencies": {
     "@types/jest": "29.5.12",
     "@types/node": "20.14.11",
-    "@vitest/ui": "2.0.3",
+    "@vitest/ui": "2.0.4",
     "c8": "10.1.2",
     "hygen": "6.2.11",
     "moleculer-repl": "0.7.4",
     "tsconfig": "workspace:*",
-    "tsup": "8.2.1",
-    "typescript": "5.5.3",
+    "tsup": "8.2.2",
+    "typescript": "5.5.4",
     "vite": "5.3.4",
-    "vitest": "2.0.3"
+    "vitest": "2.0.4"
   },
   "engines": {
     "node": ">= 14.x.x"
