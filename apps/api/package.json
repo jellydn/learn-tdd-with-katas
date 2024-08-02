@@ -37,13 +37,13 @@
   },
   "devDependencies": {
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.13",
+    "@types/node": "20.14.14",
     "@vitest/ui": "2.0.5",
     "c8": "10.1.2",
     "hygen": "6.2.11",
     "moleculer-repl": "0.7.4",
     "tsconfig": "workspace:*",
-    "tsup": "8.2.3",
+    "tsup": "8.2.4",
     "typescript": "5.5.4",
     "vite": "5.3.5",
     "vitest": "2.0.5"
