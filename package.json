@@ -17,7 +17,7 @@
 		"@biomejs/biome": "1.9.2",
 		"@total-typescript/shoehorn": "0.1.2",
 		"@turbo/gen": "2.1.2",
-		"eslint": "9.11.0",
+		"eslint": "9.11.1",
 		"pythagora": "0.0.80",
 		"turbo": "2.1.2"
 	},
