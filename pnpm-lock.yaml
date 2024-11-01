@@ -39,8 +39,8 @@ importers:
         specifier: 16.4.5
         version: 16.4.5
       helmet:
-        specifier: 7.2.0
-        version: 7.2.0
+        specifier: 8.0.0
+        version: 8.0.0
       moleculer:
         specifier: 0.14.34
         version: 0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)
@@ -2360,9 +2360,9 @@ packages:
   headers-polyfill@3.3.0:
     resolution: {integrity: sha512-5e57etwBpNcDc0b6KCVWEh/Ro063OxPvzVimUdM0/tsYM/T7Hfy3kknIGj78SFTOhNd8AZY41U8mOHoO4LzmIQ==}
 
-  helmet@7.2.0:
-    resolution: {integrity: sha512-ZRiwvN089JfMXokizgqEPXsl2Guk094yExfoDXR0cBYWxtBbaSww/w+vT4WEJsBW2iTUi1GgZ6swmoug3Oy4Xw==}
-    engines: {node: '>=16.0.0'}
+  helmet@8.0.0:
+    resolution: {integrity: sha512-VyusHLEIIO5mjQPUI1wpOAEu+wl6Q0998jzTxqUYGE45xCIcAxy3MsbEK/yyJUJ3ADeMoB6MornPH6GMWAf+Pw==}
+    engines: {node: '>=18.0.0'}
 
   highlight.js@10.7.3:
     resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
@@ -6532,7 +6532,7 @@ snapshots:
 
   headers-polyfill@3.3.0: {}
 
-  helmet@7.2.0: {}
+  helmet@8.0.0: {}
 
   highlight.js@10.7.3: {}
 
