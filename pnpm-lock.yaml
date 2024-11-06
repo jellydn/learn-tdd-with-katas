@@ -42,11 +42,11 @@ importers:
         specifier: 8.0.0
         version: 8.0.0
       moleculer:
-        specifier: 0.14.34
-        version: 0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)
+        specifier: 0.14.35
+        version: 0.14.35(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)
       moleculer-web:
         specifier: 0.10.7
-        version: 0.10.7(moleculer@0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0))
+        version: 0.10.7(moleculer@0.14.35(debug@4.3.7)(nats@2.28.2)(pino@9.5.0))
       nats:
         specifier: 2.28.2
         version: 2.28.2
@@ -2951,8 +2951,8 @@ packages:
     peerDependencies:
       moleculer: ^0.13.0 || ^0.14.0
 
-  moleculer@0.14.34:
-    resolution: {integrity: sha512-xILOSPqo4ATKhhAhvQXRBgMVbaKHPKBvgYasihVCmPGYK7QCeLnoOV+MD+a4/VmyEjLaAOzlIQBSYIUu0mwg9Q==}
+  moleculer@0.14.35:
+    resolution: {integrity: sha512-KB4qs0zNTjE9z7Bl27FFLPaWkAsUFJajF2njozJeor1phFCAYP5S1JsWOSrnUBTtsH7SX4gTw8tGRdcgh1eyVQ==}
     engines: {node: '>= 10.x.x'}
     hasBin: true
     peerDependencies:
@@ -2972,7 +2972,7 @@ packages:
       nats: ^1.0.0 || ^2.0.0
       node-nats-streaming: ^0.0.51 || ^0.2.0 || ^0.3.0
       notepack.io: ^2.0.0 || ^3.0.0
-      pino: ^6.0.0 || ^7.0.0 || ^8.0.0
+      pino: ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
       protobufjs: ^6.0.0 || ^7.0.0
       redlock: ^4.0.0
       rhea-promise: ^1.0.0 || ^2.0.0
@@ -7314,7 +7314,7 @@ snapshots:
       tiny-human-time: 1.2.0
       yargs-parser: 21.1.1
 
-  moleculer-web@0.10.7(moleculer@0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)):
+  moleculer-web@0.10.7(moleculer@0.14.35(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)):
     dependencies:
       '@fastify/busboy': 1.2.1
       body-parser: 1.20.3
@@ -7324,14 +7324,14 @@ snapshots:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)
+      moleculer: 0.14.35(debug@4.3.7)(nats@2.28.2)(pino@9.5.0)
       path-to-regexp: 3.3.0
       qs: 6.13.0
       serve-static: 1.16.2
     transitivePeerDependencies:
       - supports-color
 
-  moleculer@0.14.34(debug@4.3.7)(nats@2.28.2)(pino@9.5.0):
+  moleculer@0.14.35(debug@4.3.7)(nats@2.28.2)(pino@9.5.0):
     dependencies:
       args: 5.0.3
       eventemitter2: 6.4.9
