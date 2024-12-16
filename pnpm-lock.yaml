@@ -113,11 +113,11 @@ importers:
         specifier: 22.10.2
         version: 22.10.2
       '@types/react':
-        specifier: 18.3.16
-        version: 18.3.16
+        specifier: 18.3.17
+        version: 18.3.17
       '@types/react-dom':
         specifier: 18.3.5
-        version: 18.3.5(@types/react@18.3.16)
+        version: 18.3.5(@types/react@18.3.17)
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -177,11 +177,11 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 18.3.16
-        version: 18.3.16
+        specifier: 18.3.17
+        version: 18.3.17
       '@types/react-dom':
         specifier: 18.3.5
-        version: 18.3.5(@types/react@18.3.16)
+        version: 18.3.5(@types/react@18.3.17)
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -1337,8 +1337,8 @@ packages:
     peerDependencies:
       '@types/react': ^18.0.0
 
-  '@types/react@18.3.16':
-    resolution: {integrity: sha512-oh8AMIC4Y2ciKufU8hnKgs+ufgbA/dhPTACaZPM86AbwX9QwnFtSoPWEeRUj8fge+v6kFt78BXcDhAU1SrrAsw==}
+  '@types/react@18.3.17':
+    resolution: {integrity: sha512-opAQ5no6LqJNo9TqnxBKsgnkIYHozW9KSTlFVoSUJYh1Fl/sswkEoqIugRSm7tbh6pABtYjGAjW+GOS23j8qbw==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -5417,11 +5417,11 @@ snapshots:
 
   '@types/prop-types@15.7.14': {}
 
-  '@types/react-dom@18.3.5(@types/react@18.3.16)':
+  '@types/react-dom@18.3.5(@types/react@18.3.17)':
     dependencies:
-      '@types/react': 18.3.16
+      '@types/react': 18.3.17
 
-  '@types/react@18.3.16':
+  '@types/react@18.3.17':
     dependencies:
       '@types/prop-types': 15.7.14
       csstype: 3.1.3
