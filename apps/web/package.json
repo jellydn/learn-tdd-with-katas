@@ -20,6 +20,6 @@
     "@types/react": "18.3.20",
     "@types/react-dom": "18.3.6",
     "tsconfig": "workspace:*",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   }
 }
