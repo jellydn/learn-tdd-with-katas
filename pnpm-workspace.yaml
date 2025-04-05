@@ -1,3 +1,11 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+  - apps/*
+  - packages/*
+onlyBuiltDependencies:
+  - '@biomejs/biome'
+  - '@swc/core'
+  - core-js-pure
+  - es5-ext
+  - esbuild
+  - pythagora
+  - sharp
