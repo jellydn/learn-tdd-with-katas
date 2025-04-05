@@ -22,7 +22,7 @@
     "ts-node": "10.9.2",
     "tsconfig": "workspace:*",
     "tsup": "8.4.0",
-    "typescript": "5.8.2"
+    "typescript": "5.8.3"
   },
   "tsup": {
     "entry": [
