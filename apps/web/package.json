@@ -18,7 +18,7 @@
     "@babel/core": "7.26.10",
     "@types/node": "22.14.0",
     "@types/react": "19.1.0",
-    "@types/react-dom": "19.1.1",
+    "@types/react-dom": "19.1.2",
     "tsconfig": "workspace:*",
     "typescript": "5.8.3"
   }
