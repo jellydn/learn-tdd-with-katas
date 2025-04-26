@@ -144,14 +144,14 @@ importers:
   packages/db:
     dependencies:
       pg:
-        specifier: 8.15.5
-        version: 8.15.5
+        specifier: 8.15.6
+        version: 8.15.6
       reflect-metadata:
         specifier: 0.2.2
         version: 0.2.2
       typeorm:
         specifier: 0.3.22
-        version: 0.3.22(pg@8.15.5)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.22)(@types/node@22.15.2)(typescript@5.8.3))
+        version: 0.3.22(pg@8.15.6)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.22)(@types/node@22.15.2)(typescript@5.8.3))
     devDependencies:
       '@swc/core':
         specifier: 1.11.22
@@ -3181,8 +3181,8 @@ packages:
     resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
     engines: {node: '>=4.0.0'}
 
-  pg-pool@3.9.5:
-    resolution: {integrity: sha512-DxyAlOgvUzRFpFAZjbCc8fUfG7BcETDHgepFPf724B0i08k9PAiZV1tkGGgQIL0jbMEuR9jW1YN7eX+WgXxCsQ==}
+  pg-pool@3.9.6:
+    resolution: {integrity: sha512-rFen0G7adh1YmgvrmE5IPIqbb+IgEzENUm+tzm6MLLDSlPRoZVhzU1WdML9PV2W5GOdRA9qBKURlbt1OsXOsPw==}
     peerDependencies:
       pg: '>=8.0'
 
@@ -3193,8 +3193,8 @@ packages:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
 
-  pg@8.15.5:
-    resolution: {integrity: sha512-EpAhHFQc+aH9VfeffWIVC+XXk6lmAhS9W1FxtxcPXs94yxhrI1I6w/zkWfIOII/OkBv3Be04X3xMOj0kQ78l6w==}
+  pg@8.15.6:
+    resolution: {integrity: sha512-yvao7YI3GdmmrslNVsZgx9PfntfWrnXwtR+K/DjI0I/sTKif4Z623um+sjVZ1hk5670B+ODjvHDAckKdjmPTsg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -7497,9 +7497,9 @@ snapshots:
 
   pg-int8@1.0.1: {}
 
-  pg-pool@3.9.5(pg@8.15.5):
+  pg-pool@3.9.6(pg@8.15.6):
     dependencies:
-      pg: 8.15.5
+      pg: 8.15.6
 
   pg-protocol@1.9.5: {}
 
@@ -7511,10 +7511,10 @@ snapshots:
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
 
-  pg@8.15.5:
+  pg@8.15.6:
     dependencies:
       pg-connection-string: 2.8.5
-      pg-pool: 3.9.5(pg@8.15.5)
+      pg-pool: 3.9.6(pg@8.15.6)
       pg-protocol: 1.9.5
       pg-types: 2.2.0
       pgpass: 1.0.5
@@ -8298,7 +8298,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typeorm@0.3.22(pg@8.15.5)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.22)(@types/node@22.15.2)(typescript@5.8.3)):
+  typeorm@0.3.22(pg@8.15.6)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.22)(@types/node@22.15.2)(typescript@5.8.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       ansis: 3.17.0
@@ -8315,7 +8315,7 @@ snapshots:
       uuid: 11.1.0
       yargs: 17.7.2
     optionalDependencies:
-      pg: 8.15.5
+      pg: 8.15.6
       ts-node: 10.9.2(@swc/core@1.11.22)(@types/node@22.15.2)(typescript@5.8.3)
     transitivePeerDependencies:
       - supports-color
