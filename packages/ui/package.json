@@ -7,7 +7,7 @@
   "scripts": {},
   "devDependencies": {
     "@types/react": "19.1.4",
-    "@types/react-dom": "19.1.4",
+    "@types/react-dom": "19.1.5",
     "react": "19.1.0",
     "tsconfig": "workspace:*",
     "typescript": "5.8.3"
