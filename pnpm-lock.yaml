@@ -150,8 +150,8 @@ importers:
         specifier: 0.2.2
         version: 0.2.2
       typeorm:
-        specifier: 0.3.23
-        version: 0.3.23(pg@8.16.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.24)(@types/node@22.15.18)(typescript@5.8.3))
+        specifier: 0.3.24
+        version: 0.3.24(pg@8.16.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.24)(@types/node@22.15.18)(typescript@5.8.3))
     devDependencies:
       '@swc/core':
         specifier: 1.11.24
@@ -4054,8 +4054,8 @@ packages:
   typedarray-to-buffer@3.1.5:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
 
-  typeorm@0.3.23:
-    resolution: {integrity: sha512-CJUZWW7O5zZG0TA7bRpntJx97AvvQwsoSa1UgYlzTOtmkwODrqIyxP9wtzHpBssEKie5chnLiCVyxKNeYo65wQ==}
+  typeorm@0.3.24:
+    resolution: {integrity: sha512-4IrHG7A0tY8l5gEGXfW56VOMfUVWEkWlH/h5wmcyZ+V8oCiLj7iTPp0lEjMEZVrxEkGSdP9ErgTKHKXQApl/oA==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     peerDependencies:
@@ -8608,7 +8608,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typeorm@0.3.23(pg@8.16.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.24)(@types/node@22.15.18)(typescript@5.8.3)):
+  typeorm@0.3.24(pg@8.16.0)(reflect-metadata@0.2.2)(ts-node@10.9.2(@swc/core@1.11.24)(@types/node@22.15.18)(typescript@5.8.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       ansis: 3.17.0
@@ -8616,6 +8616,7 @@ snapshots:
       buffer: 6.0.3
       dayjs: 1.11.13
       debug: 4.4.0
+      dedent: 1.6.0
       dotenv: 16.5.0
       glob: 10.4.5
       reflect-metadata: 0.2.2
@@ -8628,6 +8629,7 @@ snapshots:
       pg: 8.16.0
       ts-node: 10.9.2(@swc/core@1.11.24)(@types/node@22.15.18)(typescript@5.8.3)
     transitivePeerDependencies:
+      - babel-plugin-macros
       - supports-color
 
   typescript@5.8.3: {}
