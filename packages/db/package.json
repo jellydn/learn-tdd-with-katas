@@ -17,7 +17,7 @@
     "typeorm": "0.3.25"
   },
   "devDependencies": {
-    "@swc/core": "1.12.4",
+    "@swc/core": "1.12.5",
     "@types/node": "22.15.32",
     "ts-node": "10.9.2",
     "tsconfig": "workspace:*",
