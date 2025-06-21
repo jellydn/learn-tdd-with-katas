@@ -14,7 +14,7 @@
 		"test": "turbo run test"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "1.9.4",
+		"@biomejs/biome": "2.0.4",
 		"@total-typescript/shoehorn": "0.1.2",
 		"@turbo/gen": "2.5.4",
 		"eslint": "9.29.0",
