@@ -33,7 +33,7 @@
     "moleculer": "0.14.35",
     "moleculer-web": "0.10.8",
     "nats": "2.29.3",
-    "pino": "9.8.0"
+    "pino": "9.9.0"
   },
   "devDependencies": {
     "@types/jest": "29.5.14",
