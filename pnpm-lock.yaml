@@ -43,16 +43,16 @@ importers:
         version: 8.1.0
       moleculer:
         specifier: 0.14.35
-        version: 0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.0)
+        version: 0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.1)
       moleculer-web:
         specifier: 0.10.8
-        version: 0.10.8(moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.0))
+        version: 0.10.8(moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.1))
       nats:
         specifier: 2.29.3
         version: 2.29.3
       pino:
-        specifier: 9.9.0
-        version: 9.9.0
+        specifier: 9.9.1
+        version: 9.9.1
     devDependencies:
       '@types/jest':
         specifier: 29.5.14
@@ -128,8 +128,8 @@ importers:
   packages/common:
     dependencies:
       pino:
-        specifier: 9.9.0
-        version: 9.9.0
+        specifier: 9.9.1
+        version: 9.9.1
     devDependencies:
       tsconfig:
         specifier: workspace:*
@@ -3270,8 +3270,8 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.9.0:
-    resolution: {integrity: sha512-zxsRIQG9HzG+jEljmvmZupOMDUQ0Jpj0yAgE28jQvvrdYTlEaiGwelJpdndMl/MBuRr70heIj83QyqJUWaU8mQ==}
+  pino@9.9.1:
+    resolution: {integrity: sha512-40SszWPOPwGhUIJ3zj0PsbMNV1bfg8nw5Qp/tP2FE2p3EuycmhDeYimKOMBAu6rtxcSw2QpjJsuK5A6v+en8Yw==}
     hasBin: true
 
   pirates@4.0.7:
@@ -7269,7 +7269,7 @@ snapshots:
       tiny-human-time: 1.2.0
       yargs-parser: 21.1.1
 
-  moleculer-web@0.10.8(moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.0)):
+  moleculer-web@0.10.8(moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.1)):
     dependencies:
       '@fastify/busboy': 1.2.1
       body-parser: 1.20.3
@@ -7279,14 +7279,14 @@ snapshots:
       isstream: 0.1.2
       kleur: 4.1.5
       lodash: 4.17.21
-      moleculer: 0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.0)
+      moleculer: 0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.1)
       path-to-regexp: 3.3.0
       qs: 6.14.0
       serve-static: 1.16.2
     transitivePeerDependencies:
       - supports-color
 
-  moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.0):
+  moleculer@0.14.35(debug@4.4.1)(nats@2.29.3)(pino@9.9.1):
     dependencies:
       args: 5.0.3
       eventemitter2: 6.4.9
@@ -7301,7 +7301,7 @@ snapshots:
     optionalDependencies:
       debug: 4.4.1
       nats: 2.29.3
-      pino: 9.9.0
+      pino: 9.9.1
     transitivePeerDependencies:
       - encoding
 
@@ -7633,7 +7633,7 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.9.0:
+  pino@9.9.1:
     dependencies:
       atomic-sleep: 1.0.0
       fast-redact: 3.5.0
