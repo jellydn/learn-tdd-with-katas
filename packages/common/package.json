@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "pino": "9.9.1"
+    "pino": "9.9.2"
   },
   "scripts": {
     "lib": "tsup"
