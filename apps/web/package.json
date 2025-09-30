@@ -17,7 +17,7 @@
   "devDependencies": {
     "@babel/core": "7.28.4",
     "@types/node": "22.18.7",
-    "@types/react": "19.1.15",
+    "@types/react": "19.1.16",
     "@types/react-dom": "19.1.9",
     "tsconfig": "workspace:*",
     "typescript": "5.9.2"
