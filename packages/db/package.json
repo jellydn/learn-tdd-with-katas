@@ -18,11 +18,11 @@
   },
   "devDependencies": {
     "@swc/core": "1.13.20",
-    "@types/node": "22.18.7",
+    "@types/node": "22.18.8",
     "ts-node": "10.9.2",
     "tsconfig": "workspace:*",
     "tsup": "8.5.0",
-    "typescript": "5.9.2"
+    "typescript": "5.9.3"
   },
   "tsup": {
     "entry": [
