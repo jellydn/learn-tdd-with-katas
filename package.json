@@ -16,10 +16,10 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
 		"@total-typescript/shoehorn": "0.1.2",
-		"@turbo/gen": "2.6.3",
+		"@turbo/gen": "2.7.0",
 		"eslint": "9.39.2",
 		"pythagora": "0.0.80",
-		"turbo": "2.6.3"
+		"turbo": "2.7.0"
 	},
 	"packageManager": "pnpm@10.26.1",
 	"engines": {
