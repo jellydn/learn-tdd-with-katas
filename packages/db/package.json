@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@swc/core": "1.15.7",
-    "@types/node": "22.19.3",
+    "@types/node": "24.10.4",
     "ts-node": "10.9.2",
     "tsconfig": "workspace:*",
     "tsup": "8.5.1",
