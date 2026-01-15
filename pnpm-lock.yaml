@@ -144,14 +144,14 @@ importers:
   packages/db:
     dependencies:
       pg:
-        specifier: 8.17.0
-        version: 8.17.0
+        specifier: 8.17.1
+        version: 8.17.1
       reflect-metadata:
         specifier: 0.2.2
         version: 0.2.2
       typeorm:
         specifier: 0.3.28
-        version: 0.3.28(pg@8.17.0)(ts-node@10.9.2(@swc/core@1.15.8)(@types/node@22.19.6)(typescript@5.9.3))
+        version: 0.3.28(pg@8.17.1)(ts-node@10.9.2(@swc/core@1.15.8)(@types/node@22.19.6)(typescript@5.9.3))
     devDependencies:
       '@swc/core':
         specifier: 1.15.8
@@ -3448,8 +3448,8 @@ packages:
     resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
     engines: {node: '>=4'}
 
-  pg@8.17.0:
-    resolution: {integrity: sha512-SRl6PbO7zqhD5bZ6lVtEFWknVeWv6Eab+PKzowWTEAce5MFiHTcSdi2N9M9m7VYAv1Hc3OOCxSka3hPBYoXHJA==}
+  pg@8.17.1:
+    resolution: {integrity: sha512-EIR+jXdYNSMOrpRp7g6WgQr7SaZNZfS7IzZIO0oTNEeibq956JxeD15t3Jk3zZH0KH8DmOIx38qJfQenoE8bXQ==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
       pg-native: '>=3.0.1'
@@ -7947,9 +7947,9 @@ snapshots:
 
   pg-int8@1.0.1: {}
 
-  pg-pool@3.11.0(pg@8.17.0):
+  pg-pool@3.11.0(pg@8.17.1):
     dependencies:
-      pg: 8.17.0
+      pg: 8.17.1
 
   pg-protocol@1.11.0: {}
 
@@ -7961,10 +7961,10 @@ snapshots:
       postgres-date: 1.0.7
       postgres-interval: 1.2.0
 
-  pg@8.17.0:
+  pg@8.17.1:
     dependencies:
       pg-connection-string: 2.10.0
-      pg-pool: 3.11.0(pg@8.17.0)
+      pg-pool: 3.11.0(pg@8.17.1)
       pg-protocol: 1.11.0
       pg-types: 2.2.0
       pgpass: 1.0.5
@@ -8760,7 +8760,7 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typeorm@0.3.28(pg@8.17.0)(ts-node@10.9.2(@swc/core@1.15.8)(@types/node@22.19.6)(typescript@5.9.3)):
+  typeorm@0.3.28(pg@8.17.1)(ts-node@10.9.2(@swc/core@1.15.8)(@types/node@22.19.6)(typescript@5.9.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       ansis: 4.2.0
@@ -8778,7 +8778,7 @@ snapshots:
       uuid: 11.1.0
       yargs: 17.7.2
     optionalDependencies:
-      pg: 8.17.0
+      pg: 8.17.1
       ts-node: 10.9.2(@swc/core@1.15.8)(@types/node@22.19.6)(typescript@5.9.3)
     transitivePeerDependencies:
       - babel-plugin-macros
