@@ -21,7 +21,7 @@
 		"pythagora": "0.0.80",
 		"turbo": "2.7.6"
 	},
-	"packageManager": "pnpm@10.28.1",
+	"packageManager": "pnpm@10.28.2",
 	"engines": {
 		"node": ">=16.20.0"
 	}
