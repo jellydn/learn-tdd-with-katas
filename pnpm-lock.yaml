@@ -15,8 +15,8 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       '@turbo/gen':
-        specifier: 2.8.5
-        version: 2.8.5(@types/node@22.19.11)
+        specifier: 2.8.6
+        version: 2.8.6(@types/node@22.19.11)
       eslint:
         specifier: 9.39.2
         version: 9.39.2
@@ -24,8 +24,8 @@ importers:
         specifier: 0.0.80
         version: 0.0.80(@types/node@22.19.11)(ts-node@10.9.2(@swc/core@1.15.11)(@types/node@22.19.11)(typescript@5.9.3))
       turbo:
-        specifier: 2.8.5
-        version: 2.8.5
+        specifier: 2.8.6
+        version: 2.8.6
 
   apps/api:
     dependencies:
@@ -113,11 +113,11 @@ importers:
         specifier: 22.19.11
         version: 22.19.11
       '@types/react':
-        specifier: 19.2.13
-        version: 19.2.13
+        specifier: 19.2.14
+        version: 19.2.14
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.13)
+        version: 19.2.3(@types/react@19.2.14)
       tsconfig:
         specifier: workspace:*
         version: link:../../packages/tsconfig
@@ -177,11 +177,11 @@ importers:
   packages/ui:
     devDependencies:
       '@types/react':
-        specifier: 19.2.13
-        version: 19.2.13
+        specifier: 19.2.14
+        version: 19.2.14
       '@types/react-dom':
         specifier: 19.2.3
-        version: 19.2.3(@types/react@19.2.13)
+        version: 19.2.3(@types/react@19.2.14)
       react:
         specifier: 19.2.4
         version: 19.2.4
@@ -1535,12 +1535,12 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@turbo/gen@2.8.5':
-    resolution: {integrity: sha512-FTscVSa8hn8x3NRyNXwKy0d+H2nE9RrJ/i//F3NyXIWvLwyvLJvyLjHgwrwp+6EeE/ptdCvign9svBZtVnH93Q==}
+  '@turbo/gen@2.8.6':
+    resolution: {integrity: sha512-RRm+fYNnpYi6mrQGYN8xtfcKong20P8AVdR9eyr/mqbnImuyo7Ypxx7pHbZp3BzN4xcvp7s15c20a8iIZQvJBw==}
     hasBin: true
 
-  '@turbo/workspaces@2.8.5':
-    resolution: {integrity: sha512-/w5+ujuGztJCwD9cTRPGY47oFRk6bT2jPeBvUjA+3/1oFodEtiQCc9pFcP9Xbr3wLESKq8Ui1VGPlNpLG2TUHw==}
+  '@turbo/workspaces@2.8.6':
+    resolution: {integrity: sha512-mprMImCw1biP8Qw0FGtsN2EGv4NR3D8KxzjDeDBnNAQq/WU/8/p2ep0s4upzVRPKzYzUU36Ggi7l/5enTzZTAw==}
     hasBin: true
 
   '@types/babel__core@7.20.5':
@@ -1609,8 +1609,8 @@ packages:
     peerDependencies:
       '@types/react': ^19.2.0
 
-  '@types/react@19.2.13':
-    resolution: {integrity: sha512-KkiJeU6VbYbUOp5ITMIc7kBfqlYkKA5KhEHVrGMmUUMt7NeaZg65ojdPk+FtNrBAOXNVM5QM72jnADjM+XVRAQ==}
+  '@types/react@19.2.14':
+    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
@@ -4281,38 +4281,38 @@ packages:
   ttl@1.3.1:
     resolution: {integrity: sha512-+bGy9iDAqg3WSfc2ZrprToSPJhZjqy7vUv9wupQzsiv+BVPVx1T2a6G4T0290SpQj+56Toaw9BiLO5j5Bd7QzA==}
 
-  turbo-darwin-64@2.8.5:
-    resolution: {integrity: sha512-3wngnZrjRh6nXjNFURY9yKV7ysTF2gibpzkQjo4/c4eWjGt39q5p/A/wpxpnVBzyT1/auaPuzxJA98Sv1ZCOJg==}
+  turbo-darwin-64@2.8.6:
+    resolution: {integrity: sha512-6QeZ/aLZizekiI6tKZN0IGP1a1WYZ9c/qDKPa0rSmj2X0O0Iw/ES4rKZV40S5n8SUJdiU01EFLygHJ2oWaYKXg==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.8.5:
-    resolution: {integrity: sha512-QAFH6X9h8M4G8uTVRBQFw6EN0LmvYYyNEA2EKJOEogyeULSUA04M+FzYuSScl6uS9P78fzOCC0hhzk/Eqo4GQg==}
+  turbo-darwin-arm64@2.8.6:
+    resolution: {integrity: sha512-RS4Z902vB93cQD3PJS/1IMmS0HefrB5ZXuw4ECOrxhOGz5jJVmYFJ6weDzedjoTDeYHHXGo1NoiCSHg69ngWKA==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.8.5:
-    resolution: {integrity: sha512-o01d5g3CZWavW6vP0KD8wJwdqoHaLuOAb3PvuWY95JEcyPRAKGKNxsTW2xNifY4UYENwSVktFZXZlIO2qnrEmg==}
+  turbo-linux-64@2.8.6:
+    resolution: {integrity: sha512-hCWDnDepYbrSJdByuryKFoHAGFkvgBYXr6qdaGsYhX1Wgq8isqXCQBKOo99Y/9tXDwKGEeQ7xnkdFvSL7AQ4iQ==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.8.5:
-    resolution: {integrity: sha512-YSNVEUeFVGsA2pmPOokiximJOhKQnrg/M7JlJZzefjmp+j4Raj7YqLwK8pQRbAO4XDoojkf4tvmy+mRVW9O0gQ==}
+  turbo-linux-arm64@2.8.6:
+    resolution: {integrity: sha512-oS15aCYEpynG/l69xs/ZnQ0dnz0pHhfHg70Zf5J+j5Cam0/RA0MpcryjneN/9G0PmP8a/6ZxnL5nZahX+wOBPA==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.8.5:
-    resolution: {integrity: sha512-X0MMT+IwWS+veX8h9/SO3+gkorcuGi0nu8CIg0kBhaqbC6Me0tChvHYQpkXj/+5qG5oFpjgkCSCip4/KYesZtg==}
+  turbo-windows-64@2.8.6:
+    resolution: {integrity: sha512-eqBxqJD7H/uk9V0QO10VgwY9J2BUXejsGuzChln72Yl+o8GZwsvhOekndRxccR90J8ZO+LKO24+3VzHFh4Cu/g==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.8.5:
-    resolution: {integrity: sha512-YBHZ1a0y8J0ITKv4TgujMFk04y84KimPDg8Br2lQaywrj3i2eRXLVuxhPi0Sqw+QuoqBVNKsHigxShA/w+rLLQ==}
+  turbo-windows-arm64@2.8.6:
+    resolution: {integrity: sha512-I3VEQyxIlNZ6XTg4fLKAkuhcwzIs/GD7Vs1yhelH2aUTjf08wprjBWknDqP7mjAHMpsosRrq4DtfSZEQm83Hxg==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.8.5:
-    resolution: {integrity: sha512-pUhV1czFZNGOwnwCLaO727uSDH4botIrhOb/AAFqzfi3x4eeRZoOcAjoidnXD/dwCAw0HJf3+Sy4c2e8SlQKxQ==}
+  turbo@2.8.6:
+    resolution: {integrity: sha512-QMj1SQwUYehc+xJ9SxXn56UO43hfKN64/NFetVW1BwzysRqn+q0FSgrmk+IbJ+djfd8j8zXGKGeqsnUcXwQSUQ==}
     hasBin: true
 
   tweetnacl@1.0.3:
@@ -5785,10 +5785,10 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@turbo/gen@2.8.5(@types/node@22.19.11)':
+  '@turbo/gen@2.8.6(@types/node@22.19.11)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@22.19.11)
-      '@turbo/workspaces': 2.8.5(@types/node@22.19.11)
+      '@turbo/workspaces': 2.8.6(@types/node@22.19.11)
       commander: 10.0.0
       fs-extra: 10.1.0
       minimatch: 9.0.0
@@ -5802,7 +5802,7 @@ snapshots:
       - '@types/node'
       - supports-color
 
-  '@turbo/workspaces@2.8.5(@types/node@22.19.11)':
+  '@turbo/workspaces@2.8.6(@types/node@22.19.11)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@22.19.11)
       commander: 10.0.0
@@ -5895,11 +5895,11 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/react-dom@19.2.3(@types/react@19.2.13)':
+  '@types/react-dom@19.2.3(@types/react@19.2.14)':
     dependencies:
-      '@types/react': 19.2.13
+      '@types/react': 19.2.14
 
-  '@types/react@19.2.13':
+  '@types/react@19.2.14':
     dependencies:
       csstype: 3.2.3
 
@@ -8943,32 +8943,32 @@ snapshots:
 
   ttl@1.3.1: {}
 
-  turbo-darwin-64@2.8.5:
+  turbo-darwin-64@2.8.6:
     optional: true
 
-  turbo-darwin-arm64@2.8.5:
+  turbo-darwin-arm64@2.8.6:
     optional: true
 
-  turbo-linux-64@2.8.5:
+  turbo-linux-64@2.8.6:
     optional: true
 
-  turbo-linux-arm64@2.8.5:
+  turbo-linux-arm64@2.8.6:
     optional: true
 
-  turbo-windows-64@2.8.5:
+  turbo-windows-64@2.8.6:
     optional: true
 
-  turbo-windows-arm64@2.8.5:
+  turbo-windows-arm64@2.8.6:
     optional: true
 
-  turbo@2.8.5:
+  turbo@2.8.6:
     optionalDependencies:
-      turbo-darwin-64: 2.8.5
-      turbo-darwin-arm64: 2.8.5
-      turbo-linux-64: 2.8.5
-      turbo-linux-arm64: 2.8.5
-      turbo-windows-64: 2.8.5
-      turbo-windows-arm64: 2.8.5
+      turbo-darwin-64: 2.8.6
+      turbo-darwin-arm64: 2.8.6
+      turbo-linux-64: 2.8.6
+      turbo-linux-arm64: 2.8.6
+      turbo-windows-64: 2.8.6
+      turbo-windows-arm64: 2.8.6
 
   tweetnacl@1.0.3: {}
 
