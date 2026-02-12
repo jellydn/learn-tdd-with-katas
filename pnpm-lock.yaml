@@ -15,8 +15,8 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       '@turbo/gen':
-        specifier: 2.8.6
-        version: 2.8.6(@types/node@22.19.11)
+        specifier: 2.8.7
+        version: 2.8.7(@types/node@22.19.11)
       eslint:
         specifier: 9.39.2
         version: 9.39.2
@@ -24,8 +24,8 @@ importers:
         specifier: 0.0.80
         version: 0.0.80(@types/node@22.19.11)(ts-node@10.9.2(@swc/core@1.15.11)(@types/node@22.19.11)(typescript@5.9.3))
       turbo:
-        specifier: 2.8.6
-        version: 2.8.6
+        specifier: 2.8.7
+        version: 2.8.7
 
   apps/api:
     dependencies:
@@ -1535,12 +1535,12 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@turbo/gen@2.8.6':
-    resolution: {integrity: sha512-RRm+fYNnpYi6mrQGYN8xtfcKong20P8AVdR9eyr/mqbnImuyo7Ypxx7pHbZp3BzN4xcvp7s15c20a8iIZQvJBw==}
+  '@turbo/gen@2.8.7':
+    resolution: {integrity: sha512-3393Qo7Hi1Y0Qr+7JEQ+KflhoqFCzqj8jK1EnSZDsZG0lV3XL2Ajpt5T3iGsxZ/Ss2ujqXCC4EPbw8+AuZ3c6w==}
     hasBin: true
 
-  '@turbo/workspaces@2.8.6':
-    resolution: {integrity: sha512-mprMImCw1biP8Qw0FGtsN2EGv4NR3D8KxzjDeDBnNAQq/WU/8/p2ep0s4upzVRPKzYzUU36Ggi7l/5enTzZTAw==}
+  '@turbo/workspaces@2.8.7':
+    resolution: {integrity: sha512-So0Qza8n1oTBhiVhoedsvdLcI3e+ZvetR2f8t/2Px1DXL9FeWv5ITVVEh+tBVebZwJwmfTT7cuOdy2xOihhkmA==}
     hasBin: true
 
   '@types/babel__core@7.20.5':
@@ -4281,38 +4281,38 @@ packages:
   ttl@1.3.1:
     resolution: {integrity: sha512-+bGy9iDAqg3WSfc2ZrprToSPJhZjqy7vUv9wupQzsiv+BVPVx1T2a6G4T0290SpQj+56Toaw9BiLO5j5Bd7QzA==}
 
-  turbo-darwin-64@2.8.6:
-    resolution: {integrity: sha512-6QeZ/aLZizekiI6tKZN0IGP1a1WYZ9c/qDKPa0rSmj2X0O0Iw/ES4rKZV40S5n8SUJdiU01EFLygHJ2oWaYKXg==}
+  turbo-darwin-64@2.8.7:
+    resolution: {integrity: sha512-Xr4TO/oDDwoozbDtBvunb66g//WK8uHRygl72vUthuwzmiw48pil4IuoG/QbMHd9RE8aBnVmzC0WZEWk/WWt3A==}
     cpu: [x64]
     os: [darwin]
 
-  turbo-darwin-arm64@2.8.6:
-    resolution: {integrity: sha512-RS4Z902vB93cQD3PJS/1IMmS0HefrB5ZXuw4ECOrxhOGz5jJVmYFJ6weDzedjoTDeYHHXGo1NoiCSHg69ngWKA==}
+  turbo-darwin-arm64@2.8.7:
+    resolution: {integrity: sha512-p8Xbmb9kZEY/NoshQUcFmQdO80s2PCGoLYj5DbpxjZr3diknipXxzOK7pcmT7l2gNHaMCpFVWLkiFY9nO3EU5w==}
     cpu: [arm64]
     os: [darwin]
 
-  turbo-linux-64@2.8.6:
-    resolution: {integrity: sha512-hCWDnDepYbrSJdByuryKFoHAGFkvgBYXr6qdaGsYhX1Wgq8isqXCQBKOo99Y/9tXDwKGEeQ7xnkdFvSL7AQ4iQ==}
+  turbo-linux-64@2.8.7:
+    resolution: {integrity: sha512-nwfEPAH3m5y/nJeYly3j1YJNYU2EG5+2ysZUxvBNM+VBV2LjQaLxB9CsEIpIOKuWKCjnFHKIADTSDPZ3D12J5Q==}
     cpu: [x64]
     os: [linux]
 
-  turbo-linux-arm64@2.8.6:
-    resolution: {integrity: sha512-oS15aCYEpynG/l69xs/ZnQ0dnz0pHhfHg70Zf5J+j5Cam0/RA0MpcryjneN/9G0PmP8a/6ZxnL5nZahX+wOBPA==}
+  turbo-linux-arm64@2.8.7:
+    resolution: {integrity: sha512-mgA/M6xiJzyxtXV70TtWGDPh+I6acOKmeQGtOzbFQZYEf794pu5jax26bCk5skAp1gqZu3vacPr6jhYHoHU9IQ==}
     cpu: [arm64]
     os: [linux]
 
-  turbo-windows-64@2.8.6:
-    resolution: {integrity: sha512-eqBxqJD7H/uk9V0QO10VgwY9J2BUXejsGuzChln72Yl+o8GZwsvhOekndRxccR90J8ZO+LKO24+3VzHFh4Cu/g==}
+  turbo-windows-64@2.8.7:
+    resolution: {integrity: sha512-sHTYMaXuCcyHnGUQgfUUt7S8407TWoP14zc/4N2tsM0wZNK6V9h4H2t5jQPtqKEb6Fg8313kygdDgEwuM4vsHg==}
     cpu: [x64]
     os: [win32]
 
-  turbo-windows-arm64@2.8.6:
-    resolution: {integrity: sha512-I3VEQyxIlNZ6XTg4fLKAkuhcwzIs/GD7Vs1yhelH2aUTjf08wprjBWknDqP7mjAHMpsosRrq4DtfSZEQm83Hxg==}
+  turbo-windows-arm64@2.8.7:
+    resolution: {integrity: sha512-WyGiOI2Zp3AhuzVagzQN+T+iq0fWx0oGxDfAWT3ZiLEd4U0cDUkwUZDKVGb3rKqPjDL6lWnuxKKu73ge5xtovQ==}
     cpu: [arm64]
     os: [win32]
 
-  turbo@2.8.6:
-    resolution: {integrity: sha512-QMj1SQwUYehc+xJ9SxXn56UO43hfKN64/NFetVW1BwzysRqn+q0FSgrmk+IbJ+djfd8j8zXGKGeqsnUcXwQSUQ==}
+  turbo@2.8.7:
+    resolution: {integrity: sha512-RBLh5caMAu1kFdTK1jgH2gH/z+jFsvX5rGbhgJ9nlIAWXSvxlzwId05uDlBA1+pBd3wO/UaKYzaQZQBXDd7kcA==}
     hasBin: true
 
   tweetnacl@1.0.3:
@@ -5785,10 +5785,10 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@turbo/gen@2.8.6(@types/node@22.19.11)':
+  '@turbo/gen@2.8.7(@types/node@22.19.11)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@22.19.11)
-      '@turbo/workspaces': 2.8.6(@types/node@22.19.11)
+      '@turbo/workspaces': 2.8.7(@types/node@22.19.11)
       commander: 10.0.0
       fs-extra: 10.1.0
       minimatch: 9.0.0
@@ -5802,7 +5802,7 @@ snapshots:
       - '@types/node'
       - supports-color
 
-  '@turbo/workspaces@2.8.6(@types/node@22.19.11)':
+  '@turbo/workspaces@2.8.7(@types/node@22.19.11)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@22.19.11)
       commander: 10.0.0
@@ -8943,32 +8943,32 @@ snapshots:
 
   ttl@1.3.1: {}
 
-  turbo-darwin-64@2.8.6:
+  turbo-darwin-64@2.8.7:
     optional: true
 
-  turbo-darwin-arm64@2.8.6:
+  turbo-darwin-arm64@2.8.7:
     optional: true
 
-  turbo-linux-64@2.8.6:
+  turbo-linux-64@2.8.7:
     optional: true
 
-  turbo-linux-arm64@2.8.6:
+  turbo-linux-arm64@2.8.7:
     optional: true
 
-  turbo-windows-64@2.8.6:
+  turbo-windows-64@2.8.7:
     optional: true
 
-  turbo-windows-arm64@2.8.6:
+  turbo-windows-arm64@2.8.7:
     optional: true
 
-  turbo@2.8.6:
+  turbo@2.8.7:
     optionalDependencies:
-      turbo-darwin-64: 2.8.6
-      turbo-darwin-arm64: 2.8.6
-      turbo-linux-64: 2.8.6
-      turbo-linux-arm64: 2.8.6
-      turbo-windows-64: 2.8.6
-      turbo-windows-arm64: 2.8.6
+      turbo-darwin-64: 2.8.7
+      turbo-darwin-arm64: 2.8.7
+      turbo-linux-64: 2.8.7
+      turbo-linux-arm64: 2.8.7
+      turbo-windows-64: 2.8.7
+      turbo-windows-arm64: 2.8.7
 
   tweetnacl@1.0.3: {}
 
