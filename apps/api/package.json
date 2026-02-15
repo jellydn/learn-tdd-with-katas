@@ -36,7 +36,7 @@
     "pino": "9.14.0"
   },
   "devDependencies": {
-    "@types/jest": "29.5.14",
+    "@types/jest": "30.0.0",
     "@types/node": "22.19.11",
     "@vitest/ui": "3.2.4",
     "c8": "10.1.3",
