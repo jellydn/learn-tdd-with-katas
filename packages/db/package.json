@@ -14,7 +14,7 @@
   "dependencies": {
     "pg": "8.20.0",
     "reflect-metadata": "0.2.2",
-    "typeorm": "0.3.28"
+    "typeorm": "0.3.29"
   },
   "devDependencies": {
     "@swc/core": "1.15.24",
