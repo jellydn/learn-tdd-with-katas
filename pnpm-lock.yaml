@@ -150,8 +150,8 @@ importers:
         specifier: 0.2.2
         version: 0.2.2
       typeorm:
-        specifier: 0.3.28
-        version: 0.3.28(pg@8.20.0)(ts-node@10.9.2(@swc/core@1.15.24)(@types/node@22.19.17)(typescript@5.9.3))
+        specifier: 0.3.29
+        version: 0.3.29(pg@8.20.0)(ts-node@10.9.2(@swc/core@1.15.24)(@types/node@22.19.17)(typescript@5.9.3))
     devDependencies:
       '@swc/core':
         specifier: 1.15.24
@@ -2127,8 +2127,8 @@ packages:
     resolution: {integrity: sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==}
     engines: {node: '>= 6'}
 
-  dayjs@1.11.19:
-    resolution: {integrity: sha512-t5EcLVS6QPBNqM2z8fakk/NKel+Xzshgt8FFKAn+qwlD1pzZWxh0nVCrvFK7ZDb6XucZeF9z8C7CBWTRIVApAw==}
+  dayjs@1.11.21:
+    resolution: {integrity: sha512-98IT+HOahAisibz/yjKbzuOBwYcjJ7BCLPzARyHiyEBmRz4fatF+KPJszEHXsGYjUG234aH/cOjW1wwTbKUZlA==}
 
   debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -2153,6 +2153,14 @@ packages:
 
   dedent@1.7.1:
     resolution: {integrity: sha512-9JmrhGZpOlEgOLdQgSm0zxFaYoQon408V1v49aqTWuXENVlnCuY9JBZcXZiCsZQWDjTm5Qf/nIvAy77mXDAjEg==}
+    peerDependencies:
+      babel-plugin-macros: ^3.1.0
+    peerDependenciesMeta:
+      babel-plugin-macros:
+        optional: true
+
+  dedent@1.7.2:
+    resolution: {integrity: sha512-WzMx3mW98SN+zn3hgemf4OzdmyNhhhKz5Ay0pUfQiMQ3e1g+xmTJWp/pKdwKVXhdSkAEGIIzqeuWrL3mV/AXbA==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -4134,8 +4142,8 @@ packages:
   typedarray-to-buffer@3.1.5:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
 
-  typeorm@0.3.28:
-    resolution: {integrity: sha512-6GH7wXhtfq2D33ZuRXYwIsl/qM5685WZcODZb7noOOcRMteM9KF2x2ap3H0EBjnSV0VO4gNAfJT5Ukp0PkOlvg==}
+  typeorm@0.3.29:
+    resolution: {integrity: sha512-wwPEX/df4l72gCmOsrs0otJZYLGA9lLQkUZCkukbsymEycV4zXv2KM7wU7v2r8L01TaCgY9ApSSqHQWBOUhEoQ==}
     engines: {node: '>=16.13.0'}
     hasBin: true
     peerDependencies:
@@ -4234,8 +4242,8 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  uuid@11.1.0:
-    resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
+  uuid@11.1.1:
+    resolution: {integrity: sha512-vIYxrBCC/N/K+Js3qSN88go7kIfNPssr/hHCesKCQNAjmgvYS2oqr69kIufEG+O4+PfezOH4EbIeHCfFov8ZgQ==}
     hasBin: true
 
   uuid@8.3.2:
@@ -6227,7 +6235,7 @@ snapshots:
 
   data-uri-to-buffer@3.0.1: {}
 
-  dayjs@1.11.19: {}
+  dayjs@1.11.21: {}
 
   debug@2.6.9:
     dependencies:
@@ -6240,6 +6248,8 @@ snapshots:
   decamelize@1.2.0: {}
 
   dedent@1.7.1: {}
+
+  dedent@1.7.2: {}
 
   deep-eql@5.0.2: {}
 
@@ -8508,22 +8518,22 @@ snapshots:
     dependencies:
       is-typedarray: 1.0.0
 
-  typeorm@0.3.28(pg@8.20.0)(ts-node@10.9.2(@swc/core@1.15.24)(@types/node@22.19.17)(typescript@5.9.3)):
+  typeorm@0.3.29(pg@8.20.0)(ts-node@10.9.2(@swc/core@1.15.24)(@types/node@22.19.17)(typescript@5.9.3)):
     dependencies:
       '@sqltools/formatter': 1.2.5
       ansis: 4.2.0
       app-root-path: 3.1.0
       buffer: 6.0.3
-      dayjs: 1.11.19
+      dayjs: 1.11.21
       debug: 4.4.3
-      dedent: 1.7.1
+      dedent: 1.7.2
       dotenv: 16.6.1
       glob: 10.5.0
       reflect-metadata: 0.2.2
       sha.js: 2.4.12
       sql-highlight: 6.1.0
       tslib: 2.8.1
-      uuid: 11.1.0
+      uuid: 11.1.1
       yargs: 17.7.2
     optionalDependencies:
       pg: 8.20.0
@@ -8571,7 +8581,7 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.20
 
-  uuid@11.1.0: {}
+  uuid@11.1.1: {}
 
   uuid@8.3.2: {}
 
