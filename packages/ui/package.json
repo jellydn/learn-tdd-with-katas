@@ -6,9 +6,9 @@
   "types": "./index.tsx",
   "scripts": {},
   "devDependencies": {
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
-    "react": "19.2.5",
+    "react": "19.2.7",
     "tsconfig": "workspace:*",
     "typescript": "5.9.3"
   }
