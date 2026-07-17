@@ -29,7 +29,7 @@
     "common": "workspace:*",
     "db": "workspace:*",
     "dotenv": "16.6.1",
-    "helmet": "8.2.0",
+    "helmet": "8.3.0",
     "moleculer": "0.15.0",
     "moleculer-web": "0.11.0",
     "nats": "2.29.3",
